@@ -1,0 +1,12 @@
+# Site settings
+title: zeptonaut
+email: andrews.charlie@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal blog of Charlie Andrews.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://zeptonaut.com" # the base hostname & protocol for your site
+twitter_username: zeptonaut
+github_username:  zeptonaut
+
+# Build settings
+markdown: kramdown
