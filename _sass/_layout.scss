@@ -3,6 +3,10 @@
     padding-top: $spacing-unit;
     max-width: 720px;
     margin: 0 auto;
+
+    @include media-query($on-palm) {
+        padding: 5px;
+    }    
 }
 .page-heading {
     margin-bottom: $spacing-unit;

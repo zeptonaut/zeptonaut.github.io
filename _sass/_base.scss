@@ -12,7 +12,7 @@ html {
 
     @include media-query($on-palm) {
         font-size: 110%;
-    }    
+    }
 }
 body {
     font-family: $base-font-family;
