@@ -3,26 +3,41 @@
 ---
 @charset "utf-8";
 
+// Our variables
+$base-font-family: 'Sorts Mill Goudy', serif;
+$base-font-size:   1.0rem;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5rem; 
+
+$spacing-unit:     1.5rem;
+
+$text-color:       #333;
+$background-color: #fdfdfd;
+$brand-color:      #d90000;
+$brand-accent-color: #4081AD;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
 html {
     font-family: 'Sorts Mill Goudy', serif;
-}
-@media (max-width: 480px) {
-    html {
-        font-size: 83%;
-    }
+    font-size: 160%;
 }
 .page-content {
     max-width: 720px;
     margin: 0 auto;
 }
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.7rem;
-    color: #800;
-    font-weight: normal;
+
+.post-title {
+    margin-bottom: 0.0rem;
 }
 time {
     font-family: 'Raleway', sans-serif;
+    font-size: 0.7rem;
     color: #888;
 }
 a {
@@ -36,62 +51,42 @@ a:hover {
 a:visited {
     color: #7e5494;
 }
-a:visited:hover {
-    color: #af00cf;
+/* a:visited:hover { */
+/*     color: #af00cf; */
+/* } */
+a.post-link {
+    display: inline;
 }
 .post-content p {
-    font-size: 1.7rem;
+    font-size: 1.0rem; 
+    margin-bottom: $spacing-unit * 1.0;
 }
 .post-content p:first-child {
-    font-size: 2.0rem;
+    font-size: 1.2rem;
 }
 .post-content p:first-child::first-letter {
     float: left;
-    font-size: 8.0rem;
-    line-height: 8.0rem;
-    padding-right: 2.0rem;
+    font-size: 4.0rem;
+    line-height: 4.5rem;
+    padding-right: 1.5rem;
 }
 
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
 
-/* // Our variables */
-/* $base-font-family: Helvetica, Arial, sans-serif; */
-/* $base-font-size:   16px; */
-/* $small-font-size:  $base-font-size * 0.875; */
-/* $base-line-height: 1.5; */
-
-/* $spacing-unit:     30px; */
-
-/* $text-color:       #111; */
-/* $background-color: #fdfdfd; */
-/* $brand-color:      #2a7ae2; */
-
-/* $grey-color:       #828282; */
-/* $grey-color-light: lighten($grey-color, 40%); */
-/* $grey-color-dark:  darken($grey-color, 25%); */
-
-/* $on-palm:          600px; */
-/* $on-laptop:        800px; */
-
-
-
-/* // Using media queries with like this: */
-/* // @include media-query($palm) { */
-/* //     .wrapper { */
-/* //         padding-right: $spacing-unit / 2; */
-/* //         padding-left: $spacing-unit / 2; */
-/* //     } */
-/* // } */
-/* @mixin media-query($device) { */
-/*     @media screen and (max-width: $device) { */
-/*         @content; */
-/*     } */
-/* } */
-
-
-
-/* // Import partials from `sass_dir` (defaults to `_sass`) */
-/* @import */
-/*         "base", */
-/*         "layout", */
-/*         "syntax-highlighting" */
-/* ; */
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
