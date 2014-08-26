@@ -12,6 +12,12 @@
     margin-bottom: $spacing-unit;
 }
 
+/** Index */
+.post-list {
+    list-style-type: none;
+    margin-left: 0;
+}
+
 /** Posts */
 .post-header {
     margin-bottom: $spacing-unit;
