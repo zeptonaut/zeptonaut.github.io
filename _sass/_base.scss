@@ -17,10 +17,12 @@ html {
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
-    line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+}
+p {
+    line-height: $base-line-height;
 }
 
 /** Set `margin-bottom` to maintain vertycal rhythm */
@@ -113,6 +115,7 @@ code {
 
 code {
     padding: 1px 5px;
+    line-height: $base-line-height / 2;
 }
 
 pre {
