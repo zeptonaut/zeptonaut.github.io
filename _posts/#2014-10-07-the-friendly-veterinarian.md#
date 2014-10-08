@@ -58,6 +58,6 @@ Using our new-found knowledge, we can add a bit to the file:
 
 Now we can reload our package by revaluating the buffer (remember `M-x eval-buffer`?) and call our function with `M-x query-favorite-animal-autocomplete`. Looks good!
 
-![query-favorite-animal]({{ site.baseurl }}/assets/query-favorite-animal-autocomplete.gif)
+![query-favorite-animal-autocomplete]({{ site.baseurl }}/assets/query-favorite-animal-autocomplete.gif)
 
 Very humble goal: accomplished.
