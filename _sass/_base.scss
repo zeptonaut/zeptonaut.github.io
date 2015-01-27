@@ -8,7 +8,7 @@ dl, dd, ol, ul, figure {
 
 /** Basic styling */
 html {
-    font-size: 160%;
+    font-size: 140%;
 
     @include media-query($on-palm) {
         font-size: 110%;
