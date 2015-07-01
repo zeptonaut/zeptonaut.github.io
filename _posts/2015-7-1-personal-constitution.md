@@ -10,7 +10,7 @@ I'm probably a little over-enthusiastic about these types of self-help books. I 
 
 The second habit in the book is *"Begin with the end in mind"*. Essentially, Covey suggests that you begin all important projects by clearly defining *in writing* what success looks like. Then, as you work on the project, you should frequently review the success criteria and make sure that you're on track.
 
-Given that life is essentially one big project, he suggests having such criteria for your life. *When you die, how do you want your life to have been lived? What are some principles you should live by in order to live such a life?*.
+Given that life is essentially one big project, he suggests having such criteria for your life. *When you die, how do you want your life to have been lived? What are some principles you should live by in order to live such a life?*
 
 He encourages readers to actually write these things down as a sort of personal constitution, review that consitution regularly, and curate it over time.
 
