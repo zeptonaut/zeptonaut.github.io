@@ -6,7 +6,7 @@ categories: self-help
 ---
 I've been reading *The 7 Habits of Highly Effective People* by Stephen R. Covey over the past few days and have loved it.
 
-I'm perhaps a little over-enthusiastic about these types of self-help books. I read *How to Win Friends and Influence People* by Dale Carnegie and talked about it obnoxiously to my friends, but found as I tried to apply its lessons that I need to basically reread the book continuously to remember all of its many lessons. That's the biggest reason I like *7 Habits*: my memory's terrible, and this way I don't have to remember as much.
+I'm probably a little over-enthusiastic about these types of self-help books. I read *How to Win Friends and Influence People* by Dale Carnegie and talked about it obnoxiously to my friends, but found as I tried to apply its lessons that I need to basically reread the book continuously to remember all of its many lessons. That's the biggest reason I like *7 Habits*: my memory's terrible, and this way I don't have to remember as much.
 
 The second habit in the book is *"Begin with the end in mind"*. Essentially, Covey suggests that you begin all important projects by clearly defining *in writing* what success looks like. Then, as you work on the project, you should frequently review the success criteria and make sure that you're on track.
 
