@@ -14,7 +14,7 @@ Given that life is essentially one big project, he suggests having such criteria
 
 He encourages readers to actually write these things down as a sort of personal constitution, review that consitution regularly, and curate it over time.
 
-Here's what my first attempt looks like (with some points unabashedly borrowed from Rolfe Kerr's personal creed):
+Here's what my first attempt looks like (with some points unabashedly borrowed from Rolfe Kerr's personal creed in the book):
 
   - Succeed at home first.
   - Seek and merit divine help.
