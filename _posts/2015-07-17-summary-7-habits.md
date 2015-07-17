@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The 7 Habits Summarized"
+title: "The 7 Habits summarized"
 date: 2015-07-17 12:36
 categories: general
 ---
