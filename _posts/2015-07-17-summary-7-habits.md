@@ -50,11 +50,10 @@ Seek out moments of synergy, when things take a turn for the unexpected and fant
 
 # Sharpen the saw.
 
-Constantly focus on improving the four primary areas of life:
+Constantly focus on improving the primary areas of life:
 
   - **Physical**: Eat healthily. Exercise regularly and sustainably. Find ways to manage stress.
   - **Social/emotional**: Live your life in service of others. Practice empathy. Synergize. Rely on instrinsic rather than extrinsic motivation.
-  - **Spiritual**: Allocate time to growing closer to God. Study your faith.
   - **Mental**: Allocate time to learn new things. Read good literature. Write frequently to practice crystallizing your thoughts. Live deliberately through planning. Grow your mental discipline. 
 
 By continuously learning, committing to worthwhile things, and meeting those commitments, you get caught in an incredibly beneficial upward spiral.
