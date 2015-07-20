@@ -6,11 +6,11 @@ categories: general
 ---
 I just finished reading *The 7 Habits of Highly Effective People* by Stephen R. Covey and thought it'd be nice to have a short blog post to look back on to remind me what the book's maxims actually mean. The 7 habits are:
 
-# Be proactive
+# Be proactive.
 
 Accept control of your life and focus on the things that you can control (your “circle of influence”) rather than the things that affect you (your “circle of concern”). Make and keep commitments to yourself and others; by doing so, you grow your circle of influence and build sense of personal honor that helps you to keep commitments even when you don’t feel like it.
 
-# Begin with the end in mind
+# Begin with the end in mind.
 
 For all important projects, clearly define what success looks like and keep that definition at the center of your work. Life is your most important project: it’s critical that you do define what success in your life means. Imagine how you want others to describe you at your funeral and write a constitution describing the characteristics that would merit such a description. Memorize and strictly adhere to that constitution. Spend time each day to review it and visualize the minutiae of life under it. Following these steps will ensure that you aren’t making progress towards the wrong goal.
 
