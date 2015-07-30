@@ -14,7 +14,7 @@ git push origin my_feature_branch
 
 # Later, on my laptop...
 git fetch origin
-git checkout my_feature_branch
+git checkout -b my_feature_branch origin/my_feature_branch
 {% endhighlight %}
 
 This is problematic, though, if the project you're working on doesn't like your ugly work-in-progress branches polluting its public repo.
@@ -55,7 +55,7 @@ git push fork add_readme
 
 # In my-repo on your laptop...
 git fetch fork
-git checkout add_readme
+git checkout -b add_readme fork/add_readme
 cat README.md
 # ...
 # This project loves Git!
