@@ -37,6 +37,8 @@ time, %vertical-rhythm {
 img {
     max-width: 100%;
     vertical-align: middle;
+    margin-top: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
 }
 
 /** Figures */
