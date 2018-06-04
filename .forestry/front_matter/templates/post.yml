@@ -3,3 +3,5 @@ hide_body: false
 is_partial: false
 fields:
 - type: textarea
+pages:
+- _posts/episode-3-the-one-where-i-skip-a-bunch-of-stuff-and-start-finishing-a-railing.md
