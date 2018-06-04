@@ -15,3 +15,5 @@ fields:
 - type: tag_list
   label: Categories
   name: categories
+pages:
+- _posts/episode-3-the-one-where-i-skip-way-ahead-and-start-finishing-a-railing.md
