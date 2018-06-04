@@ -2,7 +2,6 @@
 hide_body: false
 is_partial: false
 fields:
-- type: text
 - type: textarea
   default: Title
 pages:
