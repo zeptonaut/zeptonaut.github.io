@@ -8,7 +8,8 @@ When Erin and I remodeled our condo from a loft into a two bedroom, we tore out 
 
 All of this transformed our stairs from looking like this:
 
-![](/assets/images/IMG_20170911_084712.jpg)
+<img src="{{ "/assets/images/IMG_20170911_084712.jpg" | imgix_url }}" />
+![]({{ "/assets/images/IMG_20170911_084712.jpg" | imgix_url }})
 
 ![](/assets/images/IMG_1473.jpg)
 

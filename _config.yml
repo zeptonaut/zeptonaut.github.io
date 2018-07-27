@@ -10,3 +10,8 @@ github_username:  zeptonaut
 
 # Build settings
 markdown: kramdown
+
+plugins: [jekyll-imgix]
+
+imgix:
+  source: zeptonaut.imgix.net
