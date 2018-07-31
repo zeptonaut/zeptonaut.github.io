@@ -4,7 +4,7 @@ date: 2018-06-04 00:00:00 +0000
 categories:
 - renovation
 ---
-When Erin and I remodeled our condo from a loft into a two bedroom, we tore out the modern stainless steel railings that didn't match our new traditional aesthetic. We also had our painter paint the risers the same color as our trim, replaced the stair skirt with one that matched our new baseboards, and hired someone to refinish the treads to match the cherry floors in the rest of the house.
+When Erin and I remodeled our condoa from a loft into a two bedroom, we tore out the modern stainless steel railings that didn't match our new traditional aesthetic. We also had our painter paint the risers the same color as our trim, replaced the stair skirt with one that matched our new baseboards, and hired someone to refinish the treads to match the cherry floors in the rest of the house.
 
 All of this transformed our stairs from looking like this:
 
