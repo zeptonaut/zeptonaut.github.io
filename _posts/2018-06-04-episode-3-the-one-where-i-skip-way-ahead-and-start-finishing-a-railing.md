@@ -9,19 +9,19 @@ When Erin and I remodeled our condo from a loft into a two bedroom, we tore out 
 
 All of this transformed our stairs from looking like this:
 
-![](/assets/images/IMG_20170911_084712.jpg)
+{{ "/assets/images/IMG_20170911_084712.jpg" | zimg_tag }}
 
-![](/assets/images/IMG_1473.jpg)
+{{ "/assets/images/IMG_1473.jpg" | zimg_tag }}
 
 to looking like this:
 
-![](/assets/images/MVIMG_20171221_105543 (1).jpg)
+{{ "/assets/images/MVIMG_20171221_105543 (1).jpg" | zimg_tag }}
 
-![](/assets/images/IMG_20180604_220235.jpg)However, we never replaced the railing. After watching a few too many guests nervously butt-scoot down the stairs, we decided it was time to do so.
+{{ "/assets/images/IMG_20180604_220235.jpg" | zimg_tag }}However, we never replaced the railing. After watching a few too many guests nervously butt-scoot down the stairs, we decided it was time to do so.
 
 I wussed out on installing the banister myself and instead hired Macomb Stairs & Millwork to do it. Within a month, they were able to fit us in. It took them about two hours and a lunch break to install the banister. Impressive.
 
-![](/assets/images/IMG_20180604_172423.jpg)
+{{ "/assets/images/IMG_20180604_172423.jpg" | zimg_tag }}
 
 Erin and I are thrilled with how it came out.
 
@@ -33,7 +33,7 @@ The clerk recommended using the General Finishes Georgian Cherry gel stain. This
 
 Here's a sample board that I stained with the Georgian Cherry stain with a backdrop of our stair treads. The left side of the board received one coat of gel stain and the right side two.
 
-![](/assets/images/IMG_20180604_192353.jpg)
+{{ "/assets/images/IMG_20180604_192353.jpg" | zimg_tag }}
 
 You can also see that there's a lot of variation in color on the side with one coat. I suspect that's because I was a little stingy with the pre-stain wood conditioner that's supposed to make the wood less porous, giving a more even finish.
 
@@ -45,7 +45,7 @@ Refusing to accept defeat, I went to Home Depot and picked up two new gel stains
 
 This gave me this sample piece:
 
-![](/assets/images/IMG_20180609_145212.jpg)
+{{ "/assets/images/IMG_20180609_145212.jpg" | zimg_tag }}
 
 It's a little hard to see here, but there are five different sections with different stain combinations. From farthest to closest, they are:
 
