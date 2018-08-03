@@ -5,12 +5,18 @@ module Jekyll
   module ZimgTagFilter
     def zimg_tag(img_url)
       # imgix_opts
-      widths = [320, 420, 520, 620, 720]
       srcset_strs = []
       srcset_url = nil
       img_url = URI::encode(img_url)
-      sizes = "(min-width: 720px) 720px, 100vw"
-      for width in widths do
+      sizes = [
+        "((min-width: 720px) and (min-resolution: 3dppx)) 2160px",
+        "((min-width: 720px) and (min-resolution: 2dppx)) 1440px",
+        "(min-width: 720px) 720px",
+        "(min-resolution: 3dppx) 300vw",
+        "(min-resolution: 2dppx) 200vw",
+        "100vw"
+      ]
+      (400..2200).step(200) do |width|
         opts = {
           :w => width,
           :fit => "max",
@@ -21,7 +27,7 @@ module Jekyll
         srcset_strs << "#{srcset_url} #{width}w"
       end
 
-      "<img srcset=\"#{srcset_strs.join(", ")}\" sizes=\"#{sizes}\" src=\"#{srcset_url}\">"
+      "<img srcset=\"#{srcset_strs.join(", ")}\" sizes=\"#{sizes.join(", ")}\" src=\"#{srcset_url}\">"
     end
   end
 end
