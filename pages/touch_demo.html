@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Touch demo test</title>
+    <style>
+      html,
+      body {
+          display: block;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+      }
+
+      #options {
+          height: 3em;
+      }
+
+      #zone1 {
+          background-color: red;
+          height: calc(50% - 1.5em);
+          width: 100%;
+          font-size: 3em;
+          color: white;
+      }
+
+      #zone2 {
+          background-color: blue;
+          height: calc(50% - 1.5em);
+          width: 100%;
+          font-size: 3em;
+          color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="options">
+      <input id="zone1TouchStart" type="checkbox"><label for="zone1TouchStart">Zone 1 touch start handler</label>
+      <input id="zone1TouchMove" type="checkbox"><label for="zone1TouchMove">Zone 1 touch move handler</label>
+      <input id="zone2TouchStart" type="checkbox"><label for="zone2TouchStart">Zone 2 touch start handler</label>
+      <input id="zone2TouchMove" type="checkbox"><label for="zone2TouchMove">Zone 2 touch move handler</label>
+    </div>
+    <div id="zone1">Zone 1</div>
+    <div id="zone2">Zone 2</div>
+    <script>
+      let onTouchStart = (e) => { console.log(e); };
+      let onTouchMove = (e) => { console.log(e); };
+
+      document.querySelector('#zone1TouchStart').addEventListener('change', function() {
+        let zone1 = document.querySelector('#zone1');
+        if (this.checked) zone1.addEventListener('touchstart', onTouchStart);
+        else zone1.removeEventListener('touchmove', onTouchMove);
+      });
+
+      document.querySelector('#zone1TouchMove').addEventListener('change', function() {
+        let zone1 = document.querySelector('#zone1');
+        if (this.checked) zone1.addEventListener('touchmove', onTouchMove);
+        else zone1.removeEventListener('touchmove', onTouchMove);
+      });
+
+      document.querySelector('#zone2TouchStart').addEventListener('change', function() {
+        let zone2 = document.querySelector('#zone2');
+        if (this.checked) zone2.addEventListener('touchstart', onTouchStart);
+        else zone2.removeEventListener('touchmove', onTouchMove);
+      });
+
+      document.querySelector('#zone2TouchMove').addEventListener('change', function() {
+        let zone2 = document.querySelector('#zone2');
+        if (this.checked) zone2.addEventListener('touchmove', onTouchMove);
+        else zone2.removeEventListener('touchmove', onTouchMove);
+      });      
+    </script>
+  </body>
+</html>
