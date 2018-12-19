@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Sharing work between computers with Git</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/git/2015/07/27/sharing-work-git.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Sharing work between computers with Git</h1>
+    <time>7/27/2015</time>
+  </header>
+
+  <article class="post-content">
+    <p>Since I’ve started working more on <a href="https://github.com/google/trace-viewer/">Trace Viewer</a>, there have been plenty of times when I’ve wanted to share work on a feature branch between my desktop and laptop before sending that work out to the world for code review.</p>
+
+<p>I originally did this by pushing my feature branch to the project’s public Git repo from one computer and fetching that branch from the other computer.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># On my desktop, after making commits...</span>
+git push origin my_feature_branch
+
+<span class="c"># Later, on my laptop...</span>
+git fetch origin
+git checkout -b my_feature_branch origin/my_feature_branch</code></pre></figure>
+
+<p>This is problematic, though, if the project you’re working on doesn’t like your ugly work-in-progress branches polluting its public repo.</p>
+
+<p>The solution is to do this same push-fetch dance with a fork of the main repo instead of the main repo itself.</p>
+
+<p>At a high level, here are the steps:</p>
+
+<ol>
+  <li>Create the fork. In Github, you go to the project’s page and click the “fork” button.</li>
+  <li>Add the fork as a remote repo on your desktop’s repo.</li>
+  <li>Add the fork as a remote repo on your laptop’s repo.</li>
+</ol>
+
+<p>In practice, it looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># 1) Create the fork.</span>
+
+<span class="c"># 2) Add the fork as a remote repo on your desktop's repo.</span>
+<span class="c">#    Inside the my-repo project on your desktop...</span>
+git remote add fork &lt;your_fork_url&gt;
+
+<span class="c"># 3) Add the fork as a remote repo on your laptop's repo.</span>
+<span class="c">#    Inside the my-repo project on your laptop...</span>
+git remote add fork &lt;your_fork_url&gt;</code></pre></figure>
+
+<p>Replace <code class="highlighter-rouge">&lt;your_fork_url&gt;</code> with the SSH clone URL found on your fork’s Github project page.</p>
+
+<p>Now you can do things like:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># In my-repo on your desktop...</span>
+git checkout -b add_readme
+<span class="nb">echo</span> <span class="s2">"This project loves Git!"</span> &gt;&gt; README.md
+git commit -am <span class="s2">"Adds to the README."</span>
+
+git push fork add_readme
+
+<span class="c"># In my-repo on your laptop...</span>
+git fetch fork
+git checkout -b add_readme fork/add_readme
+cat README.md
+<span class="c"># ...</span>
+<span class="c"># This project loves Git!</span></code></pre></figure>
+
+<p>You can do the same thing in the opposite direction, too.</p>
+
+<p>Pretty nifty!</p>
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Org everywhere</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/emacs/2015/03/27/org-everywhere.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Org everywhere</h1>
+    <time>3/27/2015</time>
+  </header>
+
+  <article class="post-content">
+    <p>In the world of <em>Getting Things Done</em>, I’ve found that Emacs’s org mode is second-to-none in terms of low-friction task managers. One thing that David Allen stresses in the book is that even a tiny amount of friction in the tasks that you have to do frequently when staying organized is enough to prevent you from staying organized. At least for me, this is very, very true because I am incredibly, incredibly lazy.</p>
+
+<p>What makes org mode great is that whenever you find yourself issuing a command reguarly that takes a few too many keystrokes, you can write a tiny bit of Elisp to turn that command into a single shortcut. This luxury doesn’t exist with non-digital implementations of GTD (it’s tough to write Elisp to open a file drawer, put something into the waiting category, and close the file drawer, although Perl may get the job done).</p>
+
+<p>The somewhat nasty thing about org mode, though, is that it’s a little tough to get set up on your phone. There are a couple ways to do so, but I’ve found the easiest to be through <a href="http://mobileorg.ncogni.to/">MobileOrg</a> and <a href="https://www.dropbox.com/">Dropbox</a>.</p>
+
+<p>MobileOrg is a fairly simple editor for org files on your phone. It has a drop-in connection for Dropbox, so if you store your org files there, you can access them from multiple computers and your phone.</p>
+
+<p>Here are the basic steps in getting this combination set up, assuming that you already have org-mode set up on your computer:</p>
+
+<ul>
+  <li><a href="https://www.dropbox.com/login">Sign up for a Dropbox account.</a></li>
+  <li><a href="https://www.dropbox.com/install">Download the Dropbox app for your computer.</a> This app makes your Dropbox file system accessible as a normal folder on your computer. You’ll want to do this on each computer that you’ll be editing org mode files on.</li>
+  <li>Create a folder in your Dropbox folder that will store your org files. I use <code class="highlighter-rouge">$HOME/Dropbox/org</code>.</li>
+  <li>Create a folder in your Dropbox folder that will store your org files that have been exported for the mobile app. I use <code class="highlighter-rouge">$HOME/Dropbox/mobileorg</code>.</li>
+  <li>In your <code class="highlighter-rouge">.emacs</code> file, add the following line to let Emacs know where you want to export your mobile org files to:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp">  <span class="p">(</span><span class="k">setq</span> <span class="nv">org-mobile-directory</span> <span class="s">"~/Dropbox/mobileorg"</span><span class="p">)</span>
+  </code></pre></figure>
+
+<ul>
+  <li>Set your <code class="highlighter-rouge">org-agenda-files</code> variable to the folder where you’re storing your org files. You’ll know it’s set correctly when you can run <code class="highlighter-rouge">org-iswitchb</code> to switch between your different org mode files. You can set it by adding the following line to your <code class="highlighter-rouge">.emacs</code> file:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp">  <span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="p">(</span><span class="nb">list</span> <span class="s">"~/Dropbox/org/projects"</span><span class="p">))</span>
+  </code></pre></figure>
+
+<ul>
+  <li>Create a sample org mode file to test that everything’s hooked up correctly at <code class="highlighter-rouge">~/Dropbox/org/projects/test.org</code>. It should read something like:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">  * TODO This task should show up. 
+  </code></pre></figure>
+
+<ul>
+  <li>After you’ve done this, export your new file by running <code class="highlighter-rouge">org-mobile-push</code>. This basically wraps up all of your changes to org files and packages them to be sent to your mobile device.</li>
+  <li>Download the mobile org app on your device. When it asks where to look for your og mode files, choose Dropbox and authenticate with your Dropbox account. When asked what folder to use in your Dropbox file system, choose <code class="highlighter-rouge">mobileorg</code>.</li>
+  <li>You should see your sample task on your phone!</li>
+</ul>
+
+<p>One somewhat nasty thing about this system is that you have to run <code class="highlighter-rouge">org-mobile-push</code> every time that you want to export your computer’s changes to your mobile device, and <code class="highlighter-rouge">org-mobile-pull</code> every time that you want to import changes made on your mobile device to your computer. I’m still looking for a better system than manually doing this, but for now, I still prefer this to using a less flexible task manager.</p>
+
+<p>Now pardon me - I have to get some things done.</p>
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Testing R markdown in posts</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/r/2016/04/22/testing-r-markdown.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Testing R markdown in posts</h1>
+    <time>4/22/2016</time>
+  </header>
+
+  <article class="post-content">
+    <p>I’ve recently spent some time on the <a href="https://www.kaggle.com/c/titanic/">Kaggle Titanic machine learning problem</a> and thought it might be fun to write about different approaches I’m taking to the problem. For me. It’ll be awful for you. But hey, you’re reading this in the first place, so masochism’s clearly your thing.</p>
+
+<p>In order to make this easier, I wanted to figure out how to embed R markdown posts in a Jekyll blog. It turns out that R’s <code class="highlighter-rouge">servr</code> and <code class="highlighter-rouge">knitr</code> packages make this <em>incredibly</em> easy to do.</p>
+
+<p>Check out this fun example plot, generated with:</p>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">plot</span><span class="p">(</span><span class="n">pressure</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<p><img src="/figure/source/2016-4-22-testing-r-markdown/pressure-1.png" alt="plot of chunk pressure" /></p>
+
+<p>Well, I’m tickled.</p>
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>

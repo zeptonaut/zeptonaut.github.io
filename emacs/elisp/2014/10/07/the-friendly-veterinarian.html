@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Friendly Veterinarian: a simple emacs package</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/emacs/elisp/2014/10/07/the-friendly-veterinarian.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Friendly Veterinarian: a simple emacs package</h1>
+    <time>10/7/2014</time>
+  </header>
+
+  <article class="post-content">
+    <p>Emacs is a fantastic editor. The flexibility offered by the plugin architecture makes its potential almost limitless.</p>
+
+<p>Or… so I’ve been told. I say all this never having actually <em>developed</em> an emacs package. I’m changing that today. And I’ve limited the scope of my first plugin to reflect the fact that my attention span is limited to about 30 seconds.</p>
+
+<p>I think this plugin we’re making has real potential to take off: I call it the friendly veterinarian. It asks you the name of your favorite animal and prints a message based on your response.</p>
+
+<p>I started off by using the command line to create a directory where I could store these types of projects:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">mkdir ~/.emacs.d/playground</code></pre></figure>
+
+<p>Now we can go ahead and create the actual package.</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="c1">;; ~/.emacs.d/playground/friendly-veterinarian.el</span>
+
+<span class="c1">;; Found by googling for "ask for user input emacs"</span>
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">query-favorite-animal</span> <span class="p">(</span><span class="nv">name</span><span class="p">)</span>
+  <span class="s">"Queries the user for their favorite animal."</span>
+  <span class="p">(</span><span class="nv">interactive</span> <span class="s">"sEnter the name of your favorite animal: "</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">message</span> <span class="s">"Your favorite animal is: %s. I guess those are alright."</span> <span class="nv">name</span><span class="p">))</span>
+
+<span class="c1">;; This allows people to use (require 'friendly-veterinarian) in their .emacs</span>
+<span class="p">(</span><span class="nb">provide</span> <span class="ss">'friendly-veterinarian</span><span class="p">)</span></code></pre></figure>
+
+<p>After evaluating the buffer (another way of saying loading the code) with <code class="highlighter-rouge">M-x eval-buffer</code>, we can now  call our function with <code class="highlighter-rouge">M-x query-favorite-animal</code> and get asked what our favorite animal is.</p>
+
+<p><img src="/assets/query-favorite-animal.gif" alt="query-favorite-animal" /></p>
+
+<p>Alright - I think I can do a <em>little</em> better than that today. What about if we gave ourselves some neat options for autcomplete?</p>
+
+<p>The first result of googling for “interactive function autocomplete emacs” lets us know that we can pass a different parameter to <code class="highlighter-rouge">interactive</code> to give ourselves some autocomplete options. Great!</p>
+
+<p>Using our new-found knowledge, we can add a bit to the file:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="c1">;; ~/.emacs.d/playground/friendly-veterinarian.el</span>
+<span class="c1">;; (defun query-favorite-animal...</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">query-favorite-animal-autocomplete</span> <span class="p">(</span><span class="nv">name</span><span class="p">)</span>
+  <span class="s">"Queries the user for their favorite animal with autocomplete."</span>
+  <span class="p">(</span><span class="nv">interactive</span>
+   <span class="p">(</span><span class="nb">list</span>
+    <span class="p">(</span><span class="nv">completing-read</span> <span class="s">"sEnter the name of your favorite animals: "</span>
+                     <span class="o">'</span><span class="p">(</span><span class="s">"cat"</span> <span class="s">"dog"</span> <span class="s">"giraffe"</span><span class="p">))))</span>
+  <span class="p">(</span><span class="nv">message</span> <span class="s">"Your favorite animal is: %s. I guess those are alright."</span> <span class="nv">name</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">provide</span> <span class="ss">'friendly-veterinarian</span><span class="p">)</span></code></pre></figure>
+
+<p>Now we can reload our package by revaluating the buffer (remember <code class="highlighter-rouge">M-x eval-buffer</code>?) and call our function with <code class="highlighter-rouge">M-x query-favorite-animal-autocomplete</code>. Looks good!</p>
+
+<p><img src="/assets/query-favorite-animal-autocomplete.gif" alt="query-favorite-animal" /></p>
+
+<p>Very humble goal: accomplished.</p>
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>The missing Emacs mode: spaceballs-mode</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/emacs/elisp/2014/10/11/the-missing-emacs-mode-spaceballs-mode.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">The missing Emacs mode: spaceballs-mode</h1>
+    <time>10/11/2014</time>
+  </header>
+
+  <article class="post-content">
+    <p>For <em>years</em> I’ve been urging the Emacs community to create a major mode dedicated to the movie <em>Spaceballs</em> but, alas, I must be communicating my vision poorly.</p>
+
+<p>Eager to bring this idea to fruition, I’ve decided to teach myself the basics of writing a major mode. Specifically, I’ll be creating a mode that inserts a random <em>Spaceballs</em> quote every time the user hits <code class="highlighter-rouge">ENTER</code>.</p>
+
+<p>I wrote the skeleton for this new mode based on <a href="http://www.emacswiki.org/emacs/SampleMode">this Sample Mode tutorial</a>. It looks something like this:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="c1">;; ~/.emacs.d/playground/spaceballs-mode.el</span>
+
+<span class="p">(</span><span class="nb">defvar</span> <span class="nv">spaceballs-mode-hook</span> <span class="no">nil</span>
+  <span class="s">"Hooks to be run when entering spaceballs-mode."</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">defvar</span> <span class="nv">spaceballs-mode-map</span>
+  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nb">map</span> <span class="p">(</span><span class="nv">make-keymap</span><span class="p">)))</span> <span class="nb">map</span><span class="p">)</span>
+  <span class="s">"Keymap for spaceballs-mode"</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nv">define-derived-mode</span>
+  <span class="c1">;; Name of the mode</span>
+  <span class="nv">spaceballs-mode</span>
+  <span class="c1">;; Name of the mode that we're derived from</span>
+  <span class="nv">fundamental-mode</span>
+  <span class="c1">;; How we appear in the mode line</span>
+  <span class="s">"spaceballs"</span>
+  <span class="s">"Major mode for generating random Spaceballs quotes."</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nb">provide</span> <span class="ss">'spaceballs-mode</span><span class="p">)</span></code></pre></figure>
+
+<p>The only part that’s not self-explanatory is <code class="highlighter-rouge">spaceballs-mode-hook</code>. This variable gives users a place to add their own hooks. These hooks allow a user to tell Emacs to perform certain actions (e.g. enable <code class="highlighter-rouge">flycheck-mode</code>) when <code class="highlighter-rouge">spaceballs-mode</code> is loaded.</p>
+
+<p>Check that you’re able to load up our mode by going to a new buffer (<code class="highlighter-rouge">C-x b *spaceballs*</code>) and loading up our mode with <code class="highlighter-rouge">M-x load-library spaceballs-mode</code>. Emacs should allow you to enter this mode, although it’s not too exciting at the moment.</p>
+
+<p>So now we’ve done the easy stuff: let’s move on to the more interesting parts. Adding the keybinding to insert the quote seems like a good next step. We can do this by using <code class="highlighter-rouge">define-key</code> in conjunction with our existing <code class="highlighter-rouge">map</code> variable which stores our mode’s keymap. That looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="p">(</span><span class="nb">defvar</span> <span class="nv">spaceballs-mode-map</span>
+  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nb">map</span> <span class="p">(</span><span class="nv">make-keymap</span><span class="p">)))</span>
+    <span class="p">(</span><span class="nv">define-key</span> <span class="nb">map</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">"RET"</span><span class="p">)</span> <span class="o">'</span><span class="p">(</span><span class="k">lambda</span> <span class="p">()</span>
+                                   <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+                                   <span class="p">(</span><span class="nv">insert</span> <span class="s">"Spaceballs quote goes here.\n"</span><span class="p">)))</span>
+    <span class="nb">map</span><span class="p">)</span>
+  <span class="s">"Keymap for spaceballs-mode"</span><span class="p">)</span></code></pre></figure>
+
+<p>There are two parts that might be confusing here:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">insert</code> just inserts whatever argument you pass it into the active buffer.</li>
+  <li>More interestingly, <code class="highlighter-rouge">interactive</code> tells Emacs to make the function available to the user. You can’t map things to keys unless they’re marked as <code class="highlighter-rouge">interactive</code>.</li>
+</ul>
+
+<p>Reload the mode with <code class="highlighter-rouge">M-x unload-feature spaceballs-mode</code> followed by <code class="highlighter-rouge">M-x load-library spaceballs-mode</code>. You’ll have to reenable the mode within <code class="highlighter-rouge">*spaceballs*</code> as well. Once you do this, though, you should find that mashing <code class="highlighter-rouge">ENTER</code> results in something like this:</p>
+
+<p><img src="/assets/spaceballs-quote-goes-here.gif" alt="spaceballs-quote-goes-here" /></p>
+
+<p>Great! We’re getting closer. Now we just have to work on the actual random quote part. We can start by creating a text file containing the quote list at <code class="highlighter-rouge">~/.emacs.d/playground/spaceballs-quotes.txt</code>:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">That's all we needed, a Drewish princess.
+What? You went over my helmet?
+They've gone to plaid.
+We ain't found shit.
+That's amazing. I've got the same combination on my luggage.
+You have the ring, and I see your Schwartz is as big as mine.
+That's what I ordered. Change my order to the soup.</code></pre></figure>
+
+<p>We can load that text file as a list of lines using the same technique that we used to read the list of animals in <a href="/emacs/elisp/2014/10/08/the-friendly-veterinarian-2.html">Friendly Veterinarian</a>. To do so, add this at the top of <code class="highlighter-rouge">spaceballs-mode.el</code>:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">get-lines-from-file</span> <span class="p">(</span><span class="nv">file-path</span><span class="p">)</span>
+  <span class="s">"Returns the lines of the file at file-path as a list."</span>
+  <span class="p">(</span><span class="nv">with-temp-buffer</span>
+    <span class="p">(</span><span class="nv">insert-file-contents</span> <span class="nv">file-path</span><span class="p">)</span>
+    <span class="p">(</span><span class="nv">split-string</span> <span class="p">(</span><span class="nv">buffer-string</span><span class="p">)</span> <span class="s">"\n"</span> <span class="no">t</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nb">defvar</span> <span class="nv">spaceballs-lines</span>
+  <span class="p">(</span><span class="nv">get-lines-from-file</span> <span class="s">"~/.emacs.d/playground/spaceballs-quotes.txt"</span><span class="p">))</span></code></pre></figure>
+
+<p>After reevaluating our mode with <code class="highlighter-rouge">M-x eval-buffer</code>, test that <code class="highlighter-rouge">spaceball-lines</code> was populated correctly by inspecting its value (<code class="highlighter-rouge">M-: spaceballs-lines</code>).</p>
+
+<p>Now that we have this list, we can create a new function that gets a random element from it:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">get-random-element</span> <span class="p">(</span><span class="nv">lst</span><span class="p">)</span>
+  <span class="s">"Returns a random element of a list."</span>
+  <span class="p">(</span><span class="nb">elt</span> <span class="nv">lst</span> <span class="p">(</span><span class="nb">random</span> <span class="p">(</span><span class="nb">length</span> <span class="nv">lst</span><span class="p">))))</span></code></pre></figure>
+
+<p>This function:</p>
+
+<ul>
+  <li>Generates a random number between 0 and the length of <code class="highlighter-rouge">lst</code></li>
+  <li>Accesses the element of <code class="highlighter-rouge">lst</code> at the index of that random number</li>
+</ul>
+
+<p>Not bad at all. With our newly-minted <code class="highlighter-rouge">get-random-element</code> function, we can now create a function that inserts a random <em>Spaceballs</em> quote.</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">insert-random-spaceballs-quote</span> <span class="p">()</span>
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">insert</span> <span class="p">(</span><span class="nv">get-random-element</span> <span class="nv">spaceballs-lines</span><span class="p">)</span> <span class="s">"\n"</span><span class="p">))</span></code></pre></figure>
+
+<p>As a review, here’s what our whole file looks like:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="c1">;; ~/.emacs.d/playground/spaceballs-mode.el</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">get-lines-from-file</span> <span class="p">(</span><span class="nv">file-path</span><span class="p">)</span>
+  <span class="s">"Returns the lines of the file at file-path as a list."</span>
+  <span class="p">(</span><span class="nv">with-temp-buffer</span>
+    <span class="p">(</span><span class="nv">insert-file-contents</span> <span class="nv">file-path</span><span class="p">)</span>
+    <span class="p">(</span><span class="nv">split-string</span> <span class="p">(</span><span class="nv">buffer-string</span><span class="p">)</span> <span class="s">"\n"</span> <span class="no">t</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">get-random-element</span> <span class="p">(</span><span class="nv">lst</span><span class="p">)</span>
+  <span class="s">"Returns a random element of a list."</span>
+  <span class="p">(</span><span class="nb">elt</span> <span class="nv">lst</span> <span class="p">(</span><span class="nb">random</span> <span class="p">(</span><span class="nb">length</span> <span class="nv">lst</span><span class="p">))))</span>
+
+<span class="p">(</span><span class="nb">defvar</span> <span class="nv">spaceballs-mode-hook</span> <span class="no">nil</span>
+  <span class="s">"Hooks to be run when entering spaceballs-mode."</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">defvar</span> <span class="nv">spaceballs-mode-map</span>
+  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nb">map</span> <span class="p">(</span><span class="nv">make-keymap</span><span class="p">)))</span>
+    <span class="p">(</span><span class="nv">define-key</span> <span class="nb">map</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">"RET"</span><span class="p">)</span> <span class="ss">'insert-random-spaceballs-quote</span><span class="p">)</span>
+    <span class="nb">map</span><span class="p">)</span>
+  <span class="s">"Keymap for spaceballs-mode"</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">defvar</span> <span class="nv">spaceballs-lines</span>
+  <span class="p">(</span><span class="nv">get-lines-from-file</span> <span class="s">"~/.emacs.d/playground/spaceballs-quotes.txt"</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">insert-random-spaceballs-quote</span> <span class="p">()</span>
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">insert</span> <span class="p">(</span><span class="nv">get-random-element</span> <span class="nv">spaceballs-lines</span><span class="p">)</span> <span class="s">"\n"</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nv">define-derived-mode</span> <span class="nv">spaceballs-mode</span> <span class="nv">fundamental-mode</span> <span class="s">"spaceballs"</span>
+  <span class="s">"Major mode for generating random Spaceballs quotes."</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nb">provide</span> <span class="ss">'spaceballs-mode</span><span class="p">)</span></code></pre></figure>
+
+<p>That should be it! Reload the mode and your <code class="highlighter-rouge">*spaceballs*</code> buffer and make sure that everything’s working alright. You should be seeing something like this when you hit <code class="highlighter-rouge">ENTER</code>:</p>
+
+<p><img src="/assets/spaceballs-random-quotes.gif" alt="spaceballs-random-quotes" /></p>
+
+<p>Congratulations! Together, we’ve made the greatest contribution to the Emacs community since <code class="highlighter-rouge">M-x butterfly</code>. We can each now say, <a href="http://www.poets.org/poetsorg/poem/ozymandias">“Look upon my works, ye Mighty, and despair!”</a>. Or… something.</p>
+
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>

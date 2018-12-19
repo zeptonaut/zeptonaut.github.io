@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>An intro to spinning boxes with Three.js</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/categories/2014/11/04/threejs-intro.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">An intro to spinning boxes with Three.js</h1>
+    <time>11/4/2014</time>
+  </header>
+
+  <article class="post-content">
+    <p>I often feel nostalgic about the flashy graphics programming I did in college: the mere mention of ray tracers sends my heart racing. To alleviate this heartache, I thought it’d be fun to make something with <a href="http://threejs.org">Three.js</a>.</p>
+
+<p>Three.js promises to lessen the notoriously spirit-crushing learning curve that often comes with graphics programming. It offers a simple API for interacting with WebGL, the 3D graphics part of Javascript.</p>
+
+<p>I’ll be writing the code to interact with Three.js in Coffeescript rather than raw Javascript, primarily because Coffeescript rocks. Coffeescript is a tiny compiles-to-Javascript language that makes Javascript easier to use. If you don’t know about it, I encourage you to <a href="http://coffeescript.org">check it out</a>.</p>
+
+<p>Let’s start out with an HTML page that just includes some of the things we’ll need:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- one.html --&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Three.js demo<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+      <span class="nt">body</span> <span class="p">{</span> <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span> <span class="p">}</span>
+      <span class="nt">canvas</span> <span class="p">{</span> <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span> <span class="nl">height</span><span class="p">:</span> <span class="m">100%</span> <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"one.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p>Most of this should seem pretty familiar. A few things worth mentioning are:</p>
+
+<ul>
+  <li>With the styles, we’re just creating a body and canvas that occupy the whole page.</li>
+  <li>Our Coffeescript file compiles from <code class="highlighter-rouge">one.coffee</code> to <code class="highlighter-rouge">one.js</code>, so we’re still including raw Javascript.</li>
+</ul>
+
+<p>Let’s create our Coffeescript file as well:</p>
+
+<figure class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="c1"># one.coffee</span>
+<span class="nb">window</span><span class="p">.</span><span class="na">onload</span> <span class="o">=</span> <span class="o">-&gt;</span>
+  <span class="nx">alert</span><span class="p">(</span><span class="s">"hello!"</span><span class="p">)</span></code></pre></figure>
+
+<p>When you load up <code class="highlighter-rouge">one.html</code>, you should now be greeted by an annoying alert. We’ll fix that, but only after a brief aside about how graphics libraries work.</p>
+
+<p>The beating heart of most graphics libraries is something called the <em>render loop</em>. You’re probably familiar with the concept that most games try to run at 60 frames per second; this means that we’re going through the render loop to <em>redraw</em> the scene about 60 times each second. This “60” number comes from the fact that most monitors can only update 60 times per second.</p>
+
+<p>The point of view from which the user sees what’s being drawn by the render loop is called the <em>camera</em>. The camera’s position is what distinguishes a top-down game like Starcraft from a first-person shooter like Call of Duty. Both are 3D games, but Starcraft has a camera up above the action, whereas Call of Duty’s camera is right in it.</p>
+
+<p>The view that the camera shows is called the <em>scene</em>. The scene consists of all of the objects being drawn as well as things that affect how those objects are drawn (think lighting).</p>
+
+<p>The <em>renderer</em> is what takes the 3D scene we’ve described along with the camera and actually makes a 2D image to place on our screen out of it. It ties everything together.</p>
+
+<p>Let’s start with the render loop. What does a render loop look like in Three.js?</p>
+
+<figure class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="c1"># one.coffee</span>
+<span class="nb">window</span><span class="p">.</span><span class="na">onload</span> <span class="o">=</span> <span class="o">-&gt;</span>
+  
+  <span class="nx">render</span> <span class="o">=</span> <span class="o">-&gt;</span> 
+    <span class="nx">requestAnimationFrame</span><span class="p">(</span><span class="nx">render</span><span class="p">)</span>
+    <span class="c1"># TODO: Draw scene</span>
+
+  <span class="nx">render</span><span class="p">()</span></code></pre></figure>
+
+<p>The above code actually has nothing to do with Three.js - it’s how render loops are done in Javascript in general. The important bits are:</p>
+
+<ul>
+  <li>Declaring a render function (creatively called <code class="highlighter-rouge">render</code> in our case).</li>
+  <li>Within that function, calling <code class="highlighter-rouge">requestAnimationFrame</code> with a function pointer to the render function. This tells WebGL to call the function we passed it the next time that it needs to redraw things.</li>
+  <li>Actually drawing the scene in the render function. We still have to do this.</li>
+  <li>Calling our render function once to start this loop off.</li>
+</ul>
+
+<p>So now that we have our render function, let’s create a scene for it to draw. In our case, a 1x1x1 box will do nicely.</p>
+
+<figure class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="c1"># one.coffee</span>
+<span class="nb">window</span><span class="p">.</span><span class="na">onload</span> <span class="o">=</span> <span class="o">-&gt;</span>
+  <span class="nx">scene</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">THREE</span><span class="p">.</span><span class="na">Scene</span><span class="p">()</span>
+
+  <span class="nx">boxGeometry</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">THREE</span><span class="p">.</span><span class="na">BoxGeometry</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+  <span class="nx">boxMaterial</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">THREE</span><span class="p">.</span><span class="na">MeshBasicMaterial</span><span class="p">({</span>
+    <span class="na">color</span><span class="o">:</span> <span class="mh">0xFF0000</span>
+  <span class="p">})</span>
+  <span class="nx">box</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">THREE</span><span class="p">.</span><span class="na">Mesh</span><span class="p">(</span><span class="nx">boxGeometry</span><span class="p">,</span> <span class="nx">boxMaterial</span><span class="p">)</span>
+  <span class="nx">scene</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="nx">box</span><span class="p">)</span>
+    
+  <span class="nx">render</span> <span class="o">=</span> <span class="o">-&gt;</span> 
+    <span class="nx">requestAnimationFrame</span><span class="p">(</span><span class="nx">render</span><span class="p">)</span>
+
+  <span class="nx">render</span><span class="p">()</span></code></pre></figure>
+
+<p>Simple enough: first we create the box, then we add it to our scene. All geometry (i.e. each shape) has a default center of (0, 0, 0), so the box is right at our origin.</p>
+
+<p>Each geometry in the scene also needs be associated with a <em>material</em>. The material describes things like how shiny the geometry should appear and what color it is.</p>
+
+<p>Next, we need a camera to render our box.</p>
+
+<figure class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="c1"># one.coffee</span>
+<span class="nb">window</span><span class="p">.</span><span class="na">onload</span> <span class="o">=</span> <span class="o">-&gt;</span>
+  <span class="c1"># Create geometry...</span>
+
+  <span class="nx">camera</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">THREE</span><span class="p">.</span><span class="na">PerspectiveCamera</span><span class="p">(</span>
+    <span class="mi">50</span><span class="p">,</span>
+    <span class="nb">window</span><span class="p">.</span><span class="na">innerWidth</span> <span class="o">/</span> <span class="nb">window</span><span class="p">.</span><span class="na">innerHeight</span><span class="p">,</span>
+    <span class="mf">0.1</span><span class="p">,</span>
+    <span class="mi">2000</span><span class="p">)</span>
+  <span class="nx">camera</span><span class="p">.</span><span class="na">position</span><span class="p">.</span><span class="na">z</span> <span class="o">=</span> <span class="mi">5</span>
+
+  <span class="c1"># Render function...</span></code></pre></figure>
+
+<p>Our camera parameters are:</p>
+
+<ul>
+  <li>Our field of view: <code class="highlighter-rouge">50</code>. The field of view is the number of degrees (vertically) that the camera can see. You can think of this like photography: really wide-angle, fisheye lenses have a huge field of view and can fit much more of the scene into a shot than zoom lenses.</li>
+  <li>The aspect ratio: <code class="highlighter-rouge">window.innerWidth / window.innerHeight</code>. This ratio defines the horizontal field of view relative to the vertical field of view. Unsurprisingly, we find this by just dividing the two.</li>
+  <li>The near clipping plane: <code class="highlighter-rouge">0.1</code>. Things closer to the camera than this distance won’t be drawn.</li>
+  <li>The far clipping plane: <code class="highlighter-rouge">2000</code>. Things farther from the camera than this distance won’t be drawn.</li>
+</ul>
+
+<p>Then we set the camera slightly above the scene (at <code class="highlighter-rouge">z = 5</code>).</p>
+
+<p>Lastly, we need a renderer to tie this all together and actually draw the scene. When we create a renderer in Three.js, we’re given a DOM element that the renderer is tied to, so we’ll want to add that into the DOM as well. That looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="c1"># one.coffee</span>
+<span class="nb">window</span><span class="p">.</span><span class="na">onload</span> <span class="o">=</span> <span class="o">-&gt;</span>
+  <span class="c1"># Create geometry...</span>
+  <span class="c1"># Create camera...</span>
+
+  <span class="nx">renderer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">THREE</span><span class="p">.</span><span class="na">WebGLRenderer</span><span class="p">()</span>
+  <span class="nx">renderer</span><span class="p">.</span><span class="na">setSize</span><span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="na">innerWidth</span><span class="p">,</span> <span class="nb">window</span><span class="p">.</span><span class="na">innerHeight</span><span class="p">)</span>
+  <span class="nb">document</span><span class="p">.</span><span class="na">body</span><span class="p">.</span><span class="na">appendChild</span><span class="p">(</span><span class="nx">renderer</span><span class="p">.</span><span class="na">domElement</span><span class="p">)</span>
+
+  <span class="c1"># Render function...</span></code></pre></figure>
+
+<p>If you refresh your page, you’ll be shocked to see… nada. That’s because we still need to update our render function to actually <em>use</em> our renderer. Modify the render function to look like this:</p>
+
+<figure class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="c1"># one.coffee</span>
+<span class="nb">window</span><span class="p">.</span><span class="na">onload</span> <span class="o">=</span> <span class="o">-&gt;</span>
+  <span class="c1"># Create geometry...</span>
+  <span class="c1"># Create camera...</span>
+  <span class="c1"># Create renderer...</span>
+
+  <span class="nx">render</span> <span class="o">=</span> <span class="o">-&gt;</span> 
+    <span class="nx">requestAnimationFrame</span><span class="p">(</span><span class="nx">render</span><span class="p">)</span>
+    <span class="nx">renderer</span><span class="p">.</span><span class="na">render</span><span class="p">(</span><span class="nx">scene</span><span class="p">,</span> <span class="nx">camera</span><span class="p">)</span></code></pre></figure>
+
+<p>This will give you the beautiful:</p>
+
+<iframe frameborder="0" width="100%" height="100%" src="/js/2014-11-04-threejs-intro/one-square.html"></iframe>
+
+<p>“That’s boring!”, you might say. Well, we’re looking at a box from its top so, to us, it just looks like a rectangle. We can spice this up by rotating the box a little every time we draw, like this:</p>
+
+<figure class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="c1"># one.coffee</span>
+<span class="nb">window</span><span class="p">.</span><span class="na">onload</span> <span class="o">=</span> <span class="o">-&gt;</span>
+  <span class="c1"># Create geometry...</span>
+  <span class="c1"># Create camera...</span>
+  <span class="c1"># Create renderer...</span>
+
+  <span class="nx">render</span> <span class="o">=</span> <span class="o">-&gt;</span> 
+    <span class="nx">requestAnimationFrame</span><span class="p">(</span><span class="nx">render</span><span class="p">)</span>
+    <span class="nx">renderer</span><span class="p">.</span><span class="na">render</span><span class="p">(</span><span class="nx">scene</span><span class="p">,</span> <span class="nx">camera</span><span class="p">)</span>
+    <span class="nx">box</span><span class="p">.</span><span class="na">rotation</span><span class="p">.</span><span class="na">x</span> <span class="o">+=</span> <span class="p">.</span><span class="mi">01</span>
+    <span class="nx">box</span><span class="p">.</span><span class="na">rotation</span><span class="p">.</span><span class="na">y</span> <span class="o">+=</span> <span class="p">.</span><span class="mi">01</span></code></pre></figure>
+
+<p>This looks like:</p>
+
+<iframe frameborder="0" width="100%" height="100%" src="/js/2014-11-04-threejs-intro/one-rotating.html"></iframe>
+
+<p>Much better! An honest-to-god, rotating box.</p>
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>

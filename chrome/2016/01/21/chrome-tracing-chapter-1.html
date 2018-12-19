@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Chrome Tracing Episode 1: Starting anywhere</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/chrome/2016/01/21/chrome-tracing-chapter-1.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Chrome Tracing Episode 1: Starting anywhere</h1>
+    <time>1/21/2016</time>
+  </header>
+
+  <article class="post-content">
+    <p>I’ve been working on trace viewer for a good while now, and most of the time I’ve been enduring a deep sense of guilt that I don’t actually <em>use</em> the thing more.</p>
+
+<p>So here it goes: I’m going to try my best to spend an hour every day or two using trace viewer to dig into how Chrome works, and write up the results here.</p>
+
+<p>Given that I have no real idea where to start, I just picked a random site: <a href="https://github.com/zeptonaut">my Github profile</a>.</p>
+
+<p>I’ll be doing all of the tracing in Chrome Canary, just to make sure I have the freshest features available.</p>
+
+<p>Also, just because I know that plugins can have a performance impact that I don’t care to learn more about at the current moment, I’m going to make sure that I do all of my tracing from incognito mode, and with only a single browsing tab open for now (with a second tab open for tracing purposes).</p>
+
+<p>So here it goes.</p>
+
+<p>I started out by navigating to chrome://tracing and clicked the “Record” button. I then selected the “Rendering” settings (I didn’t think I could manually pick any better ones), and clicked “Record”. I opened a new tab and went to the page (https://github.com/zeptonaut), went back to my tracing tab, and clicked “Stop”. Now comes time for investigation.</p>
+
+<p>This is what I’m greeted with:</p>
+
+<p><img src="/assets/2016-1-21/initial_page_load.png" alt="Initial page load" /></p>
+
+<p>In the trace, it looks like a flurry of activity happens right after 6 seconds: I’m going to guess that’s when I actually started loading the Github page.</p>
+
+<p>Zooming in on the “NetLog” track (option+cmd+scroll), it looks like this suspicion is confirmed. Right around 6.3s, you can see:</p>
+
+<p><img src="/assets/2016-1-21/netlog.png" alt="Netlog" /></p>
+
+<p>(P.S. Wow! You need good eyesight to see that little Netlog bar. We should fix that.)</p>
+
+<p>Scrolling down a bunch of tracks to the Github page renderer, it looks like the real work starts about 20-30ms earlier:</p>
+
+<p><img src="/assets/2016-1-21/real_work.png" alt="Real work" /></p>
+
+<p>That first blue little slice is titled <code class="highlighter-rouge">ChannelReader::DispatchInputData</code>. I’m guessing that’s important, because it looks like that’s the first thing that happens. Well, what the heck is a <code class="highlighter-rouge">ChannelReader</code>, and what does it mean to <code class="highlighter-rouge">DispatchInputData</code>?</p>
+
+<p><a href="https://code.google.com/p/chromium/codesearch#chromium/src/ipc/ipc_channel_reader.h&amp;l=35&amp;ct=xref_jump_to_def&amp;cl=GROK&amp;gsn=ChannelReader">Looking up ChannelReader on code search</a> seems to show that <code class="highlighter-rouge">ChannelReader</code> is just a way to read pipes between processes. It looks like it has something to do with IPCs (inter-process calls). Maybe that’s not what we were after.</p>
+
+<p>After that is <code class="highlighter-rouge">MessageLoop::RunTask</code>. I know that the <code class="highlighter-rouge">MessageLoop</code> is just the main loop that runs on each thread that constantly checks for and executes new tasks. That’s not what I want, either: I really want the first <em>interesting</em> piece of work that has to do with me navigating.</p>
+
+<p>Well… I give up for today. Maybe I’ll have better luck tomorrow finding something.</p>
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>

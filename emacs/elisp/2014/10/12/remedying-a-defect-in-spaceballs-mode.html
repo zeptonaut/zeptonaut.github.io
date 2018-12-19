@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Remedying a defect in spaceballs-mode</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/emacs/elisp/2014/10/12/remedying-a-defect-in-spaceballs-mode.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Remedying a defect in spaceballs-mode</h1>
+    <time>10/12/2014</time>
+  </header>
+
+  <article class="post-content">
+    <p>I think that we can all agree that <a href="/emacs/elisp/2014/10/11/the-missing-emacs-mode-spaceballs-mode.html">spaceballs-mode</a> turned out <em>pretty</em> damn well. There’s at least one glaring flaw in it, though.</p>
+
+<p>Remember when we made <code class="highlighter-rouge">insert-random-spaceballs-quote</code> an interactive function so that we could bind it to a key? Declaring that a function is <code class="highlighter-rouge">interactive</code> is a little bit like signing a contract - you’re expected to play nice with certain features of Emacs if it makes sense for your function to do so. Specifically in our case, it makes perfect sense for our function to accept what’s known as a <em>prefix argument</em>.</p>
+
+<p>A prefix argument can be passed to a function by pressing <code class="highlighter-rouge">C-u</code>, entering a number, and then calling the function. Functions that accept prefixes promise to do something sensible with the number that’s passed to them.</p>
+
+<p>As an easy example, let’s take a look at the function <code class="highlighter-rouge">previous-line</code>, usually bound to <code class="highlighter-rouge">C-p</code>. Calling it once with <code class="highlighter-rouge">C-p</code> moves back to the previous line. Using <code class="highlighter-rouge">C-u 10 C-p</code> to pass it a prefix argument of 10 moves back 10 lines instead.</p>
+
+<p>Following this logic, it makes sense for <code class="highlighter-rouge">insert-random-spaceballs-quote</code> to insert <em>ten</em> random spaceballs quotes when called with a prefix argument of 10.</p>
+
+<p>How do we do get our function to accept a prefix, you ask? It’s pretty darn easy. Rather than calling <code class="highlighter-rouge">(interactive)</code> in that function, we just call <code class="highlighter-rouge">(interactive "p")</code>. Then we mark our function as accepting that argument.</p>
+
+<p>Like this:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">insert-random-spaceballs-quote</span> <span class="p">(</span><span class="nv">arg</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">interactive</span> <span class="s">"p"</span><span class="p">)</span>
+  <span class="o">...</span></code></pre></figure>
+
+<p>That argument is set to <code class="highlighter-rouge">nil</code> when no prefix argument is passed to the function; otherwise, it’s set to the prefix argument. This means that we want to execute <code class="highlighter-rouge">insert-random-spaceballs-quote</code> <code class="highlighter-rouge">arg</code> times if <code class="highlighter-rouge">arg</code> is set; otherwise we execute it once. Something like this:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">insert-random-spaceballs-quote</span> <span class="p">(</span><span class="nv">arg</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">interactive</span> <span class="s">"p"</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">dotimes</span> <span class="p">(</span><span class="nv">num</span> <span class="p">(</span><span class="nb">or</span> <span class="nv">arg</span> <span class="mi">1</span><span class="p">))</span>
+    <span class="p">(</span><span class="nv">insert</span> <span class="p">(</span><span class="nv">get-random-element</span> <span class="nv">spaceballs-lines</span><span class="p">)</span> <span class="s">"\n"</span><span class="p">)))</span></code></pre></figure>
+
+<p>Now we can rest peacefully knowing that the <code class="highlighter-rouge">interactive</code> contract was fulfilled.</p>
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>

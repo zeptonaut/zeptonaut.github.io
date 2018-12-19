@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zeptonaut</title>
+    <description>Personal blog of Charlie Andrews.
+</description>
+    <link>http://zeptonaut.com/</link>
+    <atom:link href="http://zeptonaut.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 19 Dec 2018 19:47:38 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Dec 2018 19:47:38 +0000</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Episode 3: The one where I skip way ahead and start finishing a railing</title>
+        <description>&lt;p&gt;When Erin and I remodeled our condo from a loft into a two bedroom, we tore out the modern stainless steel railings that didn’t match our new traditional aesthetic. We also had our painter paint the risers the same color as our trim, replaced the stair skirt with one that matched our new baseboards, and hired someone to refinish the treads to match the cherry floors in the rest of the house.&lt;/p&gt;
+
+&lt;p&gt;All of this transformed our stairs from looking like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20170911_084712.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/images/IMG_1473.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;to looking like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/images/MVIMG_20171221_105543%20(1).jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20180604_220235.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;However, we never replaced the railing. After watching a few too many guests nervously butt-scoot down the stairs, we decided it was time to do so.&lt;/p&gt;
+
+&lt;p&gt;I wussed out on installing the banister myself and instead hired Macomb Stairs &amp;amp; Millwork to do it. Within a month, they were able to fit us in. It took them about two hours and a lunch break to install the banister. Impressive.&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20180604_172423.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Erin and I are thrilled with how it came out.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, Macomb Stair doesn’t paint or stain banisters. We want to stain the handrail to match the floor but paint the newels (the thick vertical posts) white to match our trim. This would require two different contractors (a painter and a wood finisher) and would likely be close to as expensive as the banister itself. Because of this, I’m going to tackle it myself.&lt;/p&gt;
+
+&lt;p&gt;I started by going to Woodcraft in Canton, where the clerk recommended using a gel stain on the handrail. The benefit of using a gel stain over a traditional stain is that gel stains are actually just colored varnishes that sit on top of the wood, whereas traditional stains soak into the wood. Poplar, which our bannister is made of, is notorious for accepting stain poorly, resulting in a splotchy look. Because gel stain just sits on top, though, it allows you to achieve a much more consistent color over woods that usually stain poorly.&lt;/p&gt;
+
+&lt;p&gt;The clerk recommended using the General Finishes Georgian Cherry gel stain. This stain matches the darker parts of our floor very well - too well, in fact. Our refinished treads are a little oranger than our floors and, because of that, the Georgian Cherry gel stain matches the old floors but doesn’t quite match the new treads.&lt;/p&gt;
+
+&lt;p&gt;Here’s a sample board that I stained with the Georgian Cherry stain with a backdrop of our stair treads. The left side of the board received one coat of gel stain and the right side two.&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20180604_192353.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also see that there’s a lot of variation in color on the side with one coat. I suspect that’s because I was a little stingy with the pre-stain wood conditioner that’s supposed to make the wood less porous, giving a more even finish.&lt;/p&gt;
+
+&lt;p&gt;To better match the color of the wood, I also picked up some mahogany gel stain which is a little oranger. I read online that you can mix gel stain colors and I tried a few different ratios of Georgian Cherry to Mahogany to find which matches best.&lt;/p&gt;
+
+&lt;p&gt;However, none of them looked right.&lt;/p&gt;
+
+&lt;p&gt;Refusing to accept defeat, I went to Home Depot and picked up two new gel stains: Minwax Cherrywood and Minwax Mahogany. I created a new poplar sample piece where I used the Minwax Cherrywood for most of the first coats and tried various other stains for the second coat.&lt;/p&gt;
+
+&lt;p&gt;This gave me this sample piece:&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/images/IMG_20180609_145212.jpg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a little hard to see here, but there are five different sections with different stain combinations. From farthest to closest, they are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Minwax Cherrywood for both coats&lt;/li&gt;
+  &lt;li&gt;Minwax Cherrywood first coat, General Finishes Georgian Cherry second coat&lt;/li&gt;
+  &lt;li&gt;Minwax Cherrywood first coat, Minwax Mahogany second coat&lt;/li&gt;
+  &lt;li&gt;Minwax Cherrywood first coat, General Finishes Mahogany second coat&lt;/li&gt;
+  &lt;li&gt;Minwax Mahogany for both coats&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I think either 3) or 4) are close enough matches, but I ultimately chose 3) as the closest match because I thought the light cherry undertones peeked through a little more with the Minwax Mahogany than the General Finishes mahogany, which matched the stair treads slightly better.&lt;/p&gt;
+
+&lt;p&gt;So I finally have my color! Time to move forward with doing some real work. In the next installment, I’ll prep and stain the railing.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+        <link>http://zeptonaut.com/renovation/2018/06/04/episode-3-the-one-where-i-skip-way-ahead-and-start-finishing-a-railing.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/renovation/2018/06/04/episode-3-the-one-where-i-skip-way-ahead-and-start-finishing-a-railing.html</guid>
+        
+        
+        <category>renovation</category>
+        
+      </item>
+    
+      <item>
+        <title>Episode 2: The one where we rough the second bedroom in</title>
+        <description>&lt;p&gt;When I last wrote, our second bedroom had a floor but not much else.&lt;/p&gt;
+
+&lt;p&gt;Here’s what our condo looks like, all the way from when we originally bought it until Friday night:&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120103.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120140.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120153.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120205.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120227.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120407.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120412.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120501.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170819_120547.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_101439.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_174007.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184431.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170909_184502.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170910_181142.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170915_213557.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It was also looking likely that it would stay this way for a while. My Uncle Mike, who’s installing the second bedroom for us, was busy this weekend. I was busy for the next two weekends, and he was busy for the subsequent two. This meant that we wouldn’t get the second bedroom roughed in until late October. (For those like me that have no idea what “roughed in” means, it’s when the floor joists, plywood floor sheets, and wall studs are installed.)&lt;/p&gt;
+
+&lt;p&gt;This past week, I was worried about this. Most of the remaining projects, like the electrical work, installing drywall, painting, and installing trim on the second floor can only be done after the second bedroom is roughed in. To further complicate things, some of those jobs require coordination with contractors, which nudges the difficulty of their scheduling into “hellish” territory.&lt;/p&gt;
+
+&lt;p&gt;Take the electrical work, for example: we need an electrician to work on our condo twice before we’re finished. The first time he visits, the second bedroom needs to be roughed in but without drywall so that he can route the power through the studs without having to cut open and then patch drywall, which would be more time consuming and therefore expensive. The second time he visits, all drywall needs to be up but not painted so that he can do his finish work: cutting holes and placing the canisters for recessed lights, adding the switch covers, and so on. In total, he estimated this would take about a day and a half.&lt;/p&gt;
+
+&lt;p&gt;At the estimate, the electrician told me to call him when he could come out for his first visit. If I called him in late October, and it took a week for him to come in, and then we put up drywall, you can begin to see how vanishingly unlikely it was that we could hit our target move in date of early November.&lt;/p&gt;
+
+&lt;p&gt;So, you can imagine my relief when Uncle Mike texted me on Friday asking “What time in the morning”. I worried that if I acknowledged that I thought he was busy this weekend, he might agree that indeed doing &lt;em&gt;anything&lt;/em&gt; sounded better than working on Saturday and instead decide to go to the park with his dog. So instead, I just replied “Is 9 too early? I’m not picky”, and we settled on that.&lt;/p&gt;
+
+&lt;p&gt;On Friday night, my Dad graciously helped me prepare for Uncle Mike coming on Saturday by ripping out the upstairs trim. One thing I’ve learned so far is that, if you’re relying on a skilled tradesperson with a tight schedule to help you out, try to do as much of the menial work beforehand as possible. It ain’t glorious - boring cleaning and running around may not feel like real work - but much of it would take the skilled tradesperson as long as it’d take you, and their time is a heck of a lot more valuable.&lt;/p&gt;
+
+&lt;p&gt;So thankfully, Uncle Mike was able to start working shortly after he arrived yesterday morning and boy did he get a lot done. While I acted as an extra set of hands - holding the tape measure somewhere, moving materials, tearing out drywall that he cut, cleaning, keeping him well fed and hydrated - he roughed in the entire second bedroom. This includes a closet with a “step” in it, an idea I stole from our neighbors across the hall, giving a bigger closet and providing sufficient clearance while walking down the stairs. The amount of work that he got done in a grueling, 10.5 hour day was truly impressive, and Erin and I are incredibly appreciative of his work.&lt;/p&gt;
+
+&lt;p&gt;He also showed me how to cut trim with his miter saw and install it. I think I got the gist of it, but have no doubt that I’m going to run into some trouble based on his many sentences that started with “Obviously” or “You can see here” when in fact the point he was making didn’t seem obvious and in fact I couldn’t really see there. I asked lots of questions when they seemed important, but also realized that a lifetime’s worth of experience installing trim couldn’t be summarized in 45 minutes to a nincompoop who had never used a saw before. I figure that I’ll have to make some mistakes for myself before I can truly appreciate the more nuanced points, but I’m at least now confident that I can use the miter saw without losing fingers. I even managed to install the new casing on a door and a half and can already feel myself moving faster.&lt;/p&gt;
+
+&lt;p&gt;Lastly, my Dad stopped by to help even more. I’m going to try to paint our cabinets (more on that later), so he sanded down the doors of the cabinets we’re going to replace in order to give me a few to practice on. He also ripped up the hardwood floor covering half of our second bedroom and knocked out half of of a wall between the second bedroom and the stairwell, which will allow us to more easily install the new drywall.&lt;/p&gt;
+
+&lt;p&gt;Here are a few pictures from the day:&lt;/p&gt;
+
+&lt;p&gt;&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_161300.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193314.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193327.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193338.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_193351.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;
+&lt;img srcset=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1200w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1400&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1400w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1600&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1600w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=1800&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 1800w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2000&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2000w, https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80 2200w&quot; sizes=&quot;((min-width: 720px) and (min-resolution: 3dppx)) 2160px, ((min-width: 720px) and (min-resolution: 2dppx)) 1440px, (min-width: 720px) 720px, (min-resolution: 3dppx) 300vw, (min-resolution: 2dppx) 200vw, 100vw&quot; src=&quot;https://zeptonaut.imgix.net/assets/renovation/IMG_20170916_201435.jpeg?ixlib=jekyll-1.1.0&amp;amp;w=2200&amp;amp;fit=max&amp;amp;auto=format&amp;amp;q=80&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All in all, we made a ton of progress, and I’m relieved that we’re able to call the electrician now to schedule a first visit. In the meanwhile, there are a lot of projects that I can make progress on - learning to use the paint sprayer, painting the cabinets and windows, priming the first floor walls, installing the first floor trim- that thankfully don’t rely on the second bedroom being installed.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Sep 2017 08:11:00 +0000</pubDate>
+        <link>http://zeptonaut.com/renovation/2017/09/17/episode-2.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/renovation/2017/09/17/episode-2.html</guid>
+        
+        
+        <category>renovation</category>
+        
+      </item>
+    
+      <item>
+        <title>Episode 1: The one where I start blogging mid-renovation</title>
+        <description>&lt;p&gt;In early August, Erin and I were thrilled to close on a condo in Midtown Detroit. We’d been looking for a two bedroom place for a while that was near to Children’s Hospital where she works and could fit our needs for the next few years.&lt;/p&gt;
+
+&lt;p&gt;One of our must-haves in our home was two bedrooms: in the short-term, we can use that second bedroom as a guest bedroom and office. In the long-term, we can turn it into a nursery for baby Andrews.&lt;/p&gt;
+
+&lt;p&gt;However, the home that we ultimately purchased was a spacious one bedroom, two floor loft. The reason for this is that the affordable options in the neighborhood were sparse and that I noticed in the walkthrough that this condo could be trivially converted into a two bedroom. Erin’s Uncle Mike, a lifelong carpenter, confirmed this in the second walkthrough and offered his help in the project. We now know that the reason for the easy conversion is that the condo was in fact originally a two bedroom before it was renovated by an architect into a hip loft. Well, we’re not hip, and what’s done be undone. Looking back, though, I do question my judgment in using the word “trivially” to describe any project as seemingly large as adding a second bedroom, even with the help of an experienced carpenter.&lt;/p&gt;
+
+&lt;p&gt;In addition to the structural changes, Erin and I wanted to make a number of updates that would make the condo better fit our style - somewhere between Erin’s traditional tastes and my contemporary ones. It’s plenty livable now, but we’re excited to have a home that we can make changes to, and many of these changes are a heck of a lot easier to make while we’re still living with her parents than after we move in.&lt;/p&gt;
+
+&lt;p&gt;So fast forward a month to now. I’ve done deep research on various topics - I know more about natural countertops than I frankly care to - and made some early decisions. We’ve also begun actual work on the condo in earnest, although that first hammer swing that took the condo from livable to “under construction” was admittedly gut-wrenching.&lt;/p&gt;
+
+&lt;p&gt;The short list of things we’ve actually accomplished:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chosen and met with a decorator, who’s helped us form a list of what we’d like to update before moving in&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Selected new trim (baseboards, crow mouldings, and door casings) to install&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Purchased that new trim and schlepped it to the condo&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ripped out the old quarter-rounds and baseboards&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Received a paint estimate and booked a painter for late October / early November&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chosen an electrician and received an estimate on how much the wiring will cost for the second bedroom change&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bought some tools, like &lt;a href=&quot;https://www.amazon.com/Fuji-2202-Semi-PRO-Spray-System/dp/B00D4NPMJE/ref=sr_1_15?ie=UTF8&amp;amp;qid=1505352568&amp;amp;sr=8-15&amp;amp;keywords=paint+sprayer+hvlp&quot;&gt;a professional paint sprayer&lt;/a&gt; (which I’ll likely sell when I’m done), &lt;a href=&quot;https://www.amazon.com/Bosch-ROS20VSC-Random-Sander-Carrying/dp/B00BD5G9VA/ref=sr_1_7?s=hi&amp;amp;ie=UTF8&amp;amp;qid=1505352600&amp;amp;sr=1-7&amp;amp;keywords=random+orbit+sander&quot;&gt;a random orbit sander&lt;/a&gt;, and &lt;a href=&quot;https://www.amazon.com/BLACK-DECKER-BDEMS600-Detail-Sander/dp/B00OJWLNMO/ref=sr_1_4?s=hi&amp;amp;ie=UTF8&amp;amp;qid=1505352624&amp;amp;sr=1-4&amp;amp;keywords=detail+sander&quot;&gt;a detail sander&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Borrowed some other tools that I’ll need, like a miter saw, air compressor, and nail guns&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Purchased the joists, 2x4s, plywood, drywall, etc. that’s required to convert the condo from a loft to a two bedroom&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Schlepped those materials to the condo (thanks to the enormous help of my friends Andrew and Dan)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Built out a floor for the second bedroom (and by “built”, I mean “watched Uncle Mike build”). Ladder holding counts as work, folks.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stripped the wall between the staircase and the upstairs down to its original studs, removing 4 inches or so of wall&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wrote a short post about what I accomplished so far&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list pales in comparison to what we still have to do, though. To list a few of the biggies:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add studs for the wall and closet to the second bedroom&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install the drywall in the second bedroom (and the newly-created ceiling in the first floor)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mud and sand that drywall&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Refinish the stairs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Decide with our decorator on paint colors&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install all of the new trim&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Paint all of the new trim&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Order new, taller cabinet uppers&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Paint all of the new and old cabinets&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Paint all of the walls&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Possibly move the washer/dryer from the walk-in closet of the master bedroom to the upstairs hallway, which will require moving a wall&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Choose a new countertop for part of our kitchen&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rip out the old backsplash and install a new one&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Suffice to say, we have a long way to go.&lt;/p&gt;
+
+&lt;p&gt;So why start blogging about the experience now, part-way through the process? Honestly, the reason is purely a selfish one: in the few past home improvement projects I’ve done, I have a tendency to move too fast or too slow after the initial novelty of the project wears off. However, when I write something down for a broader audience, I trick my brain and end up holding myself to a higher standard. I hope that by publishing what I learn, I’ll push myself to move as quickly as possible and as slowly as necessary to do the job right.&lt;/p&gt;
+
+&lt;p&gt;In a future post, I’ll probably post some pictures of the place as well as some progress photos of the work I’ve done. I’ll save that for episode two, though.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Sep 2017 21:37:00 +0000</pubDate>
+        <link>http://zeptonaut.com/renovation/2017/09/13/episode-1.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/renovation/2017/09/13/episode-1.html</guid>
+        
+        
+        <category>renovation</category>
+        
+      </item>
+    
+      <item>
+        <title>Re: Retaining Walls, extra lane could be in works for I-94</title>
+        <description>&lt;p&gt;(This is a copy of the email that I sent to Eric Lawrence, author of the article linked to below.)&lt;/p&gt;
+
+&lt;p&gt;Hi Eric,&lt;/p&gt;
+
+&lt;p&gt;I’m incredibly concerned about the $2.9B MDOT plans you wrote about in &lt;a href=&quot;http://www.freep.com/story/news/local/michigan/detroit/2016/11/14/retaining-walls-extra-lane-i94-project/93798116/&quot;&gt;Retaining walls, extra lane could be in works for I-94&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;MDOT’s reason for widening the highway resonates well with common sense: if traffic is expected to grow, and the road is currently two lanes wide, then surely widening it to three lanes should help?&lt;/p&gt;
+
+&lt;p&gt;However, this ignores a well-known, subtle truth that many traffic engineers ignore known as “induced demand”. At its core, induced demand says that congestion effectively remains constant because, if you increase a road’s throughput, people will drive more and ultimately make the road as congested as it was before.&lt;/p&gt;
+
+&lt;p&gt;The Texas Transportation Institute summarized the phenomenon well in &lt;a href=&quot;http://www.daclarke.org/AltTrans/analysis.html&quot;&gt;this study&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Metro areas that invested heavily in road capacity expansion fared no better in easing congestion than metro areas that did not&lt;/strong&gt;. Trends in congestion show that areas that exhibited greater growth in lane capacity spent roughly $22 billion more on road construction that those that didn’t, yet ended up with slightly higher congestion costs per person, wasted fuel, and travel delay.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Because of induced demand, planners in Great Britain are no longer allowed to justify new highways on the basis of reduced congestion. Confusingly, in Michigan they still are.&lt;/p&gt;
+
+&lt;p&gt;I’m not suggesting that we let I-94 languish: if the road is in disrepair, then by all means it should be refinished. Perhaps it’s necessary to redesign some of the (treacherous) entrance ramps for the freeway. But before we embark on a 17 year project that costs enough money to kickstart a real light rail system for Detroit, we should strongly consider evidence that suggests that the current plan won’t have the desired effect.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Nov 2016 14:25:00 +0000</pubDate>
+        <link>http://zeptonaut.com/detroit/2016/11/15/about-i94.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/detroit/2016/11/15/about-i94.html</guid>
+        
+        
+        <category>detroit</category>
+        
+      </item>
+    
+      <item>
+        <title>June 6, 2016: Last week in review</title>
+        <description>&lt;p&gt;Last week was a mixed bag in terms of productivity.&lt;/p&gt;
+
+&lt;p&gt;It was a four day week, so one work day was nixed from the start. Tuesday through Thursday, I tried to spend a big chunk of my time working on &lt;a href=&quot;https://github.com/catapult-project/catapult/issues/2285&quot;&gt;the migration of trace viewer to Polymer 1.0&lt;/a&gt;. I did this with the idea that, with so many high-priority tasks on my plate, it would be great to get a time-sensitive one knocked out so that I could focus on the others.&lt;/p&gt;
+
+&lt;p&gt;The highlight of this effort was the submission of &lt;a href=&quot;https://codereview.chromium.org/2023283002/&quot;&gt;my patch refactoring the ugly analysis tab view&lt;/a&gt; in trace viewer. The end result confirmed my suspicion that there was a much more succinct way to write such a tabbed view using Polymer correctly. The end result: a working analysis tab view in 549 fewer lines of code.&lt;/p&gt;
+
+&lt;p&gt;Overall though, this push to quickly finish the Polymer migration didn’t pay off. The other tasks turned out to be more time-sensitive than I expected, which meant that people were constantly interrupting my work on the Polymer migration to remind me about other tasks. The migration also took more time than I expected, which led to me having the same number of tasks by Friday but with slightly more irritated coworkers because I seemed to be ignoring the task that &lt;em&gt;they&lt;/em&gt; cared about.&lt;/p&gt;
+
+&lt;p&gt;I think that there are a few things that I could have done to better mitigate the effects of having too much on my plate:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When there are high-priority tasks pending, I should be better about communicating &lt;em&gt;what&lt;/em&gt; I’m working on along with &lt;em&gt;why&lt;/em&gt; I’m working on that particular task. If I can’t provide rationale, then maybe I shouldn’t be working on it.&lt;/li&gt;
+  &lt;li&gt;I should have been more rigorous with applying my 50m work / 10m break modified Pomodoro schedule to my work. Instead, there were was a lot of time when I was sorta working on one thing, sorta working on another, which resulted in two tasks with slow progress instead of one with lots of progress.&lt;/li&gt;
+  &lt;li&gt;I just need to spend more time working. Earlier in the year, I reduced my working time to 25 work chunks per week and gradually increased it to 30 so that I could ensure that my brain was adequately trained to work for 30 chunks in a 40 hour work week. This worked well for a few weeks but fell by the wayside afterwards. The weeks when I was using this strategy were some of my happiest and most productive weeks of the year: I need to get back in this rhythm.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thankfully, by Friday, I gave up my hope of getting the Polymer migration finished this week and refocused my attention on fixing &lt;a href=&quot;https://github.com/catapult-project/catapult/issues/2341&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;catapult#2341&lt;/code&gt;&lt;/a&gt;, which was preventing us from writing meaningful Telemetry power tests using the BattOr.  After lots of digging and some help from Oystein, I was able to figure out what needed to be fixed and Oystein has a &lt;a href=&quot;https://codereview.chromium.org/2040663002/&quot;&gt;patch out for review now&lt;/a&gt; that fixes the issue.&lt;/p&gt;
+
+&lt;p&gt;Overall, it was a strong finish to a mediocre week, but I’m optimistic that I can apply the lessons from this week to ensure that I’m effective next week.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Jun 2016 10:37:00 +0000</pubDate>
+        <link>http://zeptonaut.com/work/journal/2016/06/06/week-in-review.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/work/journal/2016/06/06/week-in-review.html</guid>
+        
+        
+        <category>work</category>
+        
+        <category>journal</category>
+        
+      </item>
+    
+      <item>
+        <title>Testing R markdown in posts</title>
+        <description>&lt;p&gt;I’ve recently spent some time on the &lt;a href=&quot;https://www.kaggle.com/c/titanic/&quot;&gt;Kaggle Titanic machine learning problem&lt;/a&gt; and thought it might be fun to write about different approaches I’m taking to the problem. For me. It’ll be awful for you. But hey, you’re reading this in the first place, so masochism’s clearly your thing.&lt;/p&gt;
+
+&lt;p&gt;In order to make this easier, I wanted to figure out how to embed R markdown posts in a Jekyll blog. It turns out that R’s &lt;code class=&quot;highlighter-rouge&quot;&gt;servr&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;knitr&lt;/code&gt; packages make this &lt;em&gt;incredibly&lt;/em&gt; easy to do.&lt;/p&gt;
+
+&lt;p&gt;Check out this fun example plot, generated with:&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pressure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/figure/source/2016-4-22-testing-r-markdown/pressure-1.png&quot; alt=&quot;plot of chunk pressure&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, I’m tickled.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Apr 2016 10:19:00 +0000</pubDate>
+        <link>http://zeptonaut.com/r/2016/04/22/testing-r-markdown.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/r/2016/04/22/testing-r-markdown.html</guid>
+        
+        
+        <category>r</category>
+        
+      </item>
+    
+      <item>
+        <title>Playing around with Pixelmator</title>
+        <description>&lt;p&gt;Alright - I admit, maybe not the &lt;em&gt;best&lt;/em&gt; use of my time, but very fun.&lt;/p&gt;
+
+&lt;p&gt;I wanted an excuse to play around with my shiny new copy of Pixelmator, and also wanted to try my hand at pixel art. This was the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2016-2-19/chrome_power.png&quot; alt=&quot;Chrome Power&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2016 21:30:00 +0000</pubDate>
+        <link>http://zeptonaut.com/art/pixelmator/2016/02/19/chrome-power-logo.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/art/pixelmator/2016/02/19/chrome-power-logo.html</guid>
+        
+        
+        <category>art</category>
+        
+        <category>pixelmator</category>
+        
+      </item>
+    
+      <item>
+        <title>Chrome Tracing Episode 1: Starting anywhere</title>
+        <description>&lt;p&gt;I’ve been working on trace viewer for a good while now, and most of the time I’ve been enduring a deep sense of guilt that I don’t actually &lt;em&gt;use&lt;/em&gt; the thing more.&lt;/p&gt;
+
+&lt;p&gt;So here it goes: I’m going to try my best to spend an hour every day or two using trace viewer to dig into how Chrome works, and write up the results here.&lt;/p&gt;
+
+&lt;p&gt;Given that I have no real idea where to start, I just picked a random site: &lt;a href=&quot;https://github.com/zeptonaut&quot;&gt;my Github profile&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’ll be doing all of the tracing in Chrome Canary, just to make sure I have the freshest features available.&lt;/p&gt;
+
+&lt;p&gt;Also, just because I know that plugins can have a performance impact that I don’t care to learn more about at the current moment, I’m going to make sure that I do all of my tracing from incognito mode, and with only a single browsing tab open for now (with a second tab open for tracing purposes).&lt;/p&gt;
+
+&lt;p&gt;So here it goes.&lt;/p&gt;
+
+&lt;p&gt;I started out by navigating to chrome://tracing and clicked the “Record” button. I then selected the “Rendering” settings (I didn’t think I could manually pick any better ones), and clicked “Record”. I opened a new tab and went to the page (https://github.com/zeptonaut), went back to my tracing tab, and clicked “Stop”. Now comes time for investigation.&lt;/p&gt;
+
+&lt;p&gt;This is what I’m greeted with:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2016-1-21/initial_page_load.png&quot; alt=&quot;Initial page load&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the trace, it looks like a flurry of activity happens right after 6 seconds: I’m going to guess that’s when I actually started loading the Github page.&lt;/p&gt;
+
+&lt;p&gt;Zooming in on the “NetLog” track (option+cmd+scroll), it looks like this suspicion is confirmed. Right around 6.3s, you can see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2016-1-21/netlog.png&quot; alt=&quot;Netlog&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(P.S. Wow! You need good eyesight to see that little Netlog bar. We should fix that.)&lt;/p&gt;
+
+&lt;p&gt;Scrolling down a bunch of tracks to the Github page renderer, it looks like the real work starts about 20-30ms earlier:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2016-1-21/real_work.png&quot; alt=&quot;Real work&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That first blue little slice is titled &lt;code class=&quot;highlighter-rouge&quot;&gt;ChannelReader::DispatchInputData&lt;/code&gt;. I’m guessing that’s important, because it looks like that’s the first thing that happens. Well, what the heck is a &lt;code class=&quot;highlighter-rouge&quot;&gt;ChannelReader&lt;/code&gt;, and what does it mean to &lt;code class=&quot;highlighter-rouge&quot;&gt;DispatchInputData&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://code.google.com/p/chromium/codesearch#chromium/src/ipc/ipc_channel_reader.h&amp;amp;l=35&amp;amp;ct=xref_jump_to_def&amp;amp;cl=GROK&amp;amp;gsn=ChannelReader&quot;&gt;Looking up ChannelReader on code search&lt;/a&gt; seems to show that &lt;code class=&quot;highlighter-rouge&quot;&gt;ChannelReader&lt;/code&gt; is just a way to read pipes between processes. It looks like it has something to do with IPCs (inter-process calls). Maybe that’s not what we were after.&lt;/p&gt;
+
+&lt;p&gt;After that is &lt;code class=&quot;highlighter-rouge&quot;&gt;MessageLoop::RunTask&lt;/code&gt;. I know that the &lt;code class=&quot;highlighter-rouge&quot;&gt;MessageLoop&lt;/code&gt; is just the main loop that runs on each thread that constantly checks for and executes new tasks. That’s not what I want, either: I really want the first &lt;em&gt;interesting&lt;/em&gt; piece of work that has to do with me navigating.&lt;/p&gt;
+
+&lt;p&gt;Well… I give up for today. Maybe I’ll have better luck tomorrow finding something.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Jan 2016 14:54:00 +0000</pubDate>
+        <link>http://zeptonaut.com/chrome/2016/01/21/chrome-tracing-chapter-1.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/chrome/2016/01/21/chrome-tracing-chapter-1.html</guid>
+        
+        
+        <category>chrome</category>
+        
+      </item>
+    
+      <item>
+        <title>Sharing work between computers with Git</title>
+        <description>&lt;p&gt;Since I’ve started working more on &lt;a href=&quot;https://github.com/google/trace-viewer/&quot;&gt;Trace Viewer&lt;/a&gt;, there have been plenty of times when I’ve wanted to share work on a feature branch between my desktop and laptop before sending that work out to the world for code review.&lt;/p&gt;
+
+&lt;p&gt;I originally did this by pushing my feature branch to the project’s public Git repo from one computer and fetching that branch from the other computer.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# On my desktop, after making commits...&lt;/span&gt;
+git push origin my_feature_branch
+
+&lt;span class=&quot;c&quot;&gt;# Later, on my laptop...&lt;/span&gt;
+git fetch origin
+git checkout -b my_feature_branch origin/my_feature_branch&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is problematic, though, if the project you’re working on doesn’t like your ugly work-in-progress branches polluting its public repo.&lt;/p&gt;
+
+&lt;p&gt;The solution is to do this same push-fetch dance with a fork of the main repo instead of the main repo itself.&lt;/p&gt;
+
+&lt;p&gt;At a high level, here are the steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create the fork. In Github, you go to the project’s page and click the “fork” button.&lt;/li&gt;
+  &lt;li&gt;Add the fork as a remote repo on your desktop’s repo.&lt;/li&gt;
+  &lt;li&gt;Add the fork as a remote repo on your laptop’s repo.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In practice, it looks like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 1) Create the fork.&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 2) Add the fork as a remote repo on your desktop's repo.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#    Inside the my-repo project on your desktop...&lt;/span&gt;
+git remote add fork &amp;lt;your_fork_url&amp;gt;
+
+&lt;span class=&quot;c&quot;&gt;# 3) Add the fork as a remote repo on your laptop's repo.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#    Inside the my-repo project on your laptop...&lt;/span&gt;
+git remote add fork &amp;lt;your_fork_url&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your_fork_url&amp;gt;&lt;/code&gt; with the SSH clone URL found on your fork’s Github project page.&lt;/p&gt;
+
+&lt;p&gt;Now you can do things like:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# In my-repo on your desktop...&lt;/span&gt;
+git checkout -b add_readme
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;This project loves Git!&quot;&lt;/span&gt; &amp;gt;&amp;gt; README.md
+git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;Adds to the README.&quot;&lt;/span&gt;
+
+git push fork add_readme
+
+&lt;span class=&quot;c&quot;&gt;# In my-repo on your laptop...&lt;/span&gt;
+git fetch fork
+git checkout -b add_readme fork/add_readme
+cat README.md
+&lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# This project loves Git!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can do the same thing in the opposite direction, too.&lt;/p&gt;
+
+&lt;p&gt;Pretty nifty!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Jul 2015 15:18:00 +0000</pubDate>
+        <link>http://zeptonaut.com/git/2015/07/27/sharing-work-git.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/git/2015/07/27/sharing-work-git.html</guid>
+        
+        
+        <category>git</category>
+        
+      </item>
+    
+      <item>
+        <title>The 7 Habits summarized</title>
+        <description>&lt;p&gt;I just finished reading &lt;em&gt;The 7 Habits of Highly Effective People&lt;/em&gt; by Stephen R. Covey and thought it’d be nice to have a short blog post to look back on to remind me what the book’s maxims actually mean. The 7 habits are:&lt;/p&gt;
+
+&lt;h1 id=&quot;be-proactive&quot;&gt;Be proactive.&lt;/h1&gt;
+
+&lt;p&gt;Accept control of your life and focus on the things that you can control (your “circle of influence”) rather than the things that affect you (your “circle of concern”). Make and keep commitments to yourself and others; by doing so, you grow your circle of influence and build sense of personal honor that helps you to keep commitments even when you don’t feel like it.&lt;/p&gt;
+
+&lt;h1 id=&quot;begin-with-the-end-in-mind&quot;&gt;Begin with the end in mind.&lt;/h1&gt;
+
+&lt;p&gt;For all important projects, clearly define what success looks like and keep that definition at the center of your work. Life is your most important project: it’s critical that you do define what success in your life means. Imagine how you want others to describe you at your funeral and write a constitution describing the characteristics that would merit such a description. Memorize and strictly adhere to that constitution. Spend time each day to review it and visualize the minutiae of life under it. Following these steps will ensure that you aren’t making progress towards the wrong goal.&lt;/p&gt;
+
+&lt;h1 id=&quot;put-first-things-first&quot;&gt;Put first things first.&lt;/h1&gt;
+
+&lt;p&gt;Now that you’ve clarified your principles and values, effective self-management around them is the primary determinant of whether you’ll reach your goals. A key component of this is to distinguish importance from urgency. Ineffective self-managers often fail to prioritize non-urgent but important tasks and decline urgent but unimportant tasks.&lt;/p&gt;
+
+&lt;p&gt;A good strategy to focus on what’s important each week is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Determine the roles that you need to fulfill for the week.&lt;/li&gt;
+  &lt;li&gt;Determine when you’ll fulfill each of those roles.&lt;/li&gt;
+  &lt;li&gt;As things come up, rearrange your schedule around those roles.&lt;/li&gt;
+  &lt;li&gt;Follow your schedule.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Delegation is also key to accomplishing these goals, but effective delegation requires growing stewards rather than drafting gofers.&lt;/p&gt;
+
+&lt;h1 id=&quot;think-winwin&quot;&gt;Think win/win.&lt;/h1&gt;
+
+&lt;p&gt;In every negotiation involving another party, seek a solution that’s mutually beneficial. Try not to view problems as having binary solutions or being zero-sum; often times, there are less obvious paths that are ultimately more agreeable. Finding these paths requires a clear understanding of what each party wants. If no such mutually beneficial solution can be found, walk away.&lt;/p&gt;
+
+&lt;p&gt;Remember that public victory does not mean success over other people; it means moving towards a mutually beneficial results.&lt;/p&gt;
+
+&lt;h1 id=&quot;seek-first-to-understand-then-to-be-understood&quot;&gt;Seek first to understand, then to be understood.&lt;/h1&gt;
+
+&lt;p&gt;Sincerely aim to fully understand the viewpoint of the person that you’re communicating with. Listen empathetically. Their concerns are valid - figure out why. A great way to do this is to rephrase content and reflect emotion. It sounds like:&lt;/p&gt;
+
+&lt;p&gt;“Dad, I’ve had it! School is for the birds!” 
+“Ah, you’re feeling really frustrated about school.”&lt;/p&gt;
+
+&lt;p&gt;When doing this, let the other person speak. Don’t just look for an opportunity to respond. Avoid giving advice unless asked. Instead, try to help the other person to find their own solutions. If the other person is in a position where advice would be useful, they’ll ask. Lastly, if you find yourself in a conversation in which you’ve violated these rules, apologize and ask to restart.&lt;/p&gt;
+
+&lt;p&gt;Presentations are a great opportunity to use these skills: allow the person you’re trying to influence to fully explain their viewpoint, and then rephrase it back to them, confirming that you understand where they’re coming from. They’ll be much more likely to accept whatever solution you propose if they know that you understand and respect their concerns. Accept that this means you’ll be influenceable; this is key to being influential. Logic is surprisingly unimportant in influencing others.&lt;/p&gt;
+
+&lt;h1 id=&quot;synergize&quot;&gt;Synergize.&lt;/h1&gt;
+
+&lt;p&gt;Seek out moments of synergy, when things take a turn for the unexpected and fantastic. These experiences often begin with someone extreme honesty, authenticity, and courage and end with immense creativity and a close brush with chaos. Empathy is key to creating these situations; you have to allow someone else’s world view to influence your own. This creates a new and potent idea cocktail. And when trying to create synergy, “Seek not to imitate the masters, rather seek what they sought.”: look for new synergistic experiences rather than trying to recreate past ones. Find others that have different viewpoints and try to understand how they see the world. And, when trying to communicate these people, don’t be defensive or even just respectful: be empathetic.&lt;/p&gt;
+
+&lt;h1 id=&quot;sharpen-the-saw&quot;&gt;Sharpen the saw.&lt;/h1&gt;
+
+&lt;p&gt;Constantly focus on improving the primary areas of life:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Physical&lt;/strong&gt;: Eat healthily. Exercise regularly and sustainably. Find ways to manage stress.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Social/emotional&lt;/strong&gt;: Live your life in service of others. Practice empathy. Synergize. Rely on instrinsic rather than extrinsic motivation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mental&lt;/strong&gt;: Allocate time to learn new things. Read good literature. Write frequently to practice crystallizing your thoughts. Live deliberately through planning. Grow your mental discipline.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By continuously learning, committing to worthwhile things, and meeting those commitments, you get caught in an incredibly beneficial upward spiral.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 17 Jul 2015 12:36:00 +0000</pubDate>
+        <link>http://zeptonaut.com/general/2015/07/17/summary-7-habits.html</link>
+        <guid isPermaLink="true">http://zeptonaut.com/general/2015/07/17/summary-7-habits.html</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+  </channel>
+</rss>

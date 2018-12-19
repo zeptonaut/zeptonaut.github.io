@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Sending our Friendly Veterinarian back to school</title>
+    <meta name="description" content="Personal blog of Charlie Andrews.
+">
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Inconsolata:400,700|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://zeptonaut.com/emacs/elisp/2014/10/08/the-friendly-veterinarian-2.html">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16399815-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Sending our Friendly Veterinarian back to school</h1>
+    <time>10/8/2014</time>
+  </header>
+
+  <article class="post-content">
+    <p>Yesterday we walked through how to write an extremely simple emacs plugin, <a href="/emacs/elisp/2014/10/07/the-friendly-veterinarian.html">Friendly Veterinarian</a>. Today I want to see if we can expand the knowledge base of our friendly veterinarian a bit by having the plugin read the autocompletion options from a text file of animals rather than having to manually list them in elisp.</p>
+
+<p>I found <a href="https://raw.githubusercontent.com/hzlzh/Domain-Name-List/master/Animal-words.txt">this animal list</a> on github which looks like a good list to use as an autocompletion source. We can download this file to our plugin directory with a <code class="highlighter-rouge">curl</code> one-liner:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">curl -0 https://raw.githubusercontent.com/hzlzh/Domain-Name-List/master/Animal-words.txt <span class="se">\</span>
+  &gt; ~/.emacs.d/playground/animals.txt</code></pre></figure>
+
+<p>Perfect! Now we just have to parse the file when we call our autocomplete function. Googling for <code class="highlighter-rouge">elisp read from file</code> gives us an answer on how to do that.</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="c1">;; ~/.emacs.d/playground/friendly-veterinarian.el</span>
+<span class="c1">;; (defun query-favorite-animal...</span>
+<span class="c1">;; (defun query-favorite-animal-autocomplete...</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">get-lines-from-file</span> <span class="p">(</span><span class="nv">file-path</span><span class="p">)</span>
+  <span class="s">"Returns the lines of the file at file-path."</span>
+  <span class="c1">;; Insert the contents of the file into a temporary buffer</span>
+  <span class="p">(</span><span class="nv">with-temp-buffer</span>
+    <span class="p">(</span><span class="nv">insert-file-contents</span> <span class="nv">file-path</span><span class="p">)</span>
+    <span class="c1">;; Split the contents of the current buffer on the new line</span>
+    <span class="p">(</span><span class="nv">split-string</span> <span class="p">(</span><span class="nv">buffer-string</span><span class="p">)</span> <span class="s">"\n"</span> <span class="no">t</span><span class="p">)))</span>
+    
+<span class="p">(</span><span class="nb">provide</span> <span class="ss">'friendly-veterinarian</span><span class="p">)</span></code></pre></figure>
+
+<p>It’d be nice to have an easy way of making sure this code works without having to use the rest of the plugin. Enter iELM (inferior Emacs Lisp Mode). iELM is what’s known in the lisp world as a REPL, which stands for Read Evaluate Print Loop. It’s essentially a program that reads a line of code that you write, evaluates it, and gives you back the result. This is exactly what we need - some way to test that <code class="highlighter-rouge">get-lines-from-file</code> works.</p>
+
+<p>To do this, load up iELM with <code class="highlighter-rouge">M-x ielm</code> and evaluate the code in <code class="highlighter-rouge">friendly-veterinarian.el</code> using <code class="highlighter-rouge">M-x eval-buffer</code>. Evaluating the code makes that code available to be executed in the REPL. Once you’ve done this, execute this line in the iELM REPL:</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="nv">ELISP</span> <span class="nb">&gt;</span> <span class="p">(</span><span class="nv">get-lines-from-file</span> <span class="s">"~/.emacs.d/playground/animals.txt"</span><span class="p">)</span>
+<span class="p">(</span><span class="s">"Aardvark"</span> <span class="s">"Albatross"</span> <span class="s">"Alligator"</span> <span class="o">...</span> <span class="s">"Zebra"</span><span class="p">)</span></code></pre></figure>
+
+<p>Wunderbar! We can now swap out our puny autocomplete list that we were using in <code class="highlighter-rouge">query-favorite-animal-autocomplete</code> with the much more complete list from our text file.</p>
+
+<figure class="highlight"><pre><code class="language-elisp" data-lang="elisp"><span class="c1">;; ~/.emacs.d/playground/friendly-veterinarian.el</span>
+<span class="c1">;; (defun query-favorite-animal...</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">query-favorite-animal-autocomplete</span> <span class="p">(</span><span class="nv">name</span><span class="p">)</span>
+  <span class="s">"Queries the user for their favorite animal with autocomplete."</span>
+  <span class="p">(</span><span class="nv">interactive</span>
+   <span class="p">(</span><span class="nb">list</span>
+    <span class="p">(</span><span class="nv">completing-read</span> <span class="s">"sEnter the name of your favorite animals: "</span>
+                     <span class="p">(</span><span class="nv">get-lines-from-file</span> <span class="s">"~/.emacs.d/playground/animals.txt"</span><span class="p">))))</span>
+  <span class="p">(</span><span class="nv">message</span> <span class="s">"Your favorite animal is: %s. I guess those are alright."</span> <span class="nv">name</span><span class="p">))</span>
+
+<span class="c1">;; (defun get-lines-from-file...</span>
+<span class="p">(</span><span class="nb">provide</span> <span class="ss">'friendly-veterinarian</span><span class="p">)</span></code></pre></figure>
+
+<p>After reevaluating our buffer and calling our function with <code class="highlighter-rouge">M-x query-favorite-animal-autocomplete</code>, we’re greeted with something like this:</p>
+
+<p><img src="/assets/query-favorite-animal-autocomplete-file.gif" alt="query-favorite-animal-autocomplete-file" /></p>
+
+<p>Now we have a friendly <em>and smart</em> veterinarian.</p>
+
+  </article>
+  <a href="/index.html">« Back</a>
+</div>
+
+    </div>
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://zeptonaut.com/feed.xml">
+
+
+  </body>
+
+</html>
